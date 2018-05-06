@@ -1,0 +1,9 @@
+"s","p","o"
+"http://it.dbpedia.org/resource/Henri_Carton_de_Wiart","http://www.w3.org/2000/01/rdf-schema#label","Henri Carton de Wiart"
+"http://it.dbpedia.org/resource/Henri_Carton_de_Wiart","http://dbpedia.org/ontology/wikiPageID",2732346
+"http://it.dbpedia.org/resource/Henri_Carton_de_Wiart","http://dbpedia.org/ontology/wikiPageWikiLink","http://it.dbpedia.org/resource/Henry_Carton_de_Wiart"
+"http://it.dbpedia.org/resource/Henri_Carton_de_Wiart","http://dbpedia.org/ontology/wikiPageRedirects","http://it.dbpedia.org/resource/Henry_Carton_de_Wiart"
+"http://it.dbpedia.org/resource/Henri_Carton_de_Wiart","http://www.w3.org/ns/prov#wasDerivedFrom","http://it.wikipedia.org/wiki/Henri_Carton_de_Wiart?oldid=28929374"
+"http://it.dbpedia.org/resource/Henri_Carton_de_Wiart","http://dbpedia.org/ontology/wikiPageLength",35
+"http://it.dbpedia.org/resource/Henri_Carton_de_Wiart","http://xmlns.com/foaf/0.1/isPrimaryTopicOf","http://it.wikipedia.org/wiki/Henri_Carton_de_Wiart"
+"http://it.wikipedia.org/wiki/Henri_Carton_de_Wiart","http://xmlns.com/foaf/0.1/primaryTopic","http://it.dbpedia.org/resource/Henri_Carton_de_Wiart"

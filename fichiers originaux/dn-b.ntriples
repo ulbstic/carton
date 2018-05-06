@@ -1,0 +1,77 @@
+<http://d-nb.info/gnd/123556082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#DifferentiatedPerson> .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#gndIdentifier> "123556082" .
+<http://d-nb.info/gnd/123556082> <http://xmlns.com/foaf/0.1/page> <https://de.wikipedia.org/wiki/Henri_Carton_de_Wiart> .
+<http://d-nb.info/gnd/123556082> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Henri_Carton_de_Wiart> .
+<http://d-nb.info/gnd/123556082> <http://www.w3.org/2002/07/owl#sameAs> <http://viaf.org/viaf/24623115> .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#oldAuthorityNumber> "(DE-588a)123556082" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#oldAuthorityNumber> "(DE-588c)4672128-9" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameForThePerson> "Wiart, Henry Carton de" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameForThePerson> "Wiart, Carton de" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameForThePerson> "Carton de Wiart, Henri" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameForThePerson> "Carton de Wiart, H." .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameForThePerson> "Wiart, Henri Carton de" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameForThePerson> "Carton de Wiart, Henry Victor Marie Ghislain" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameForThePerson> "Carton de Wiart, Henry, Comte" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameForThePerson> "Wiart, Henry C. de, Comte" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameForThePerson> "Carton de Wiart, Comte" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameForThePerson> "Wiart, Carton de, Comte" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameEntityForThePerson> _:genid1 .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameEntityForThePerson> _:genid2 .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameEntityForThePerson> _:genid3 .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameEntityForThePerson> _:genid4 .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameEntityForThePerson> _:genid5 .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameEntityForThePerson> _:genid6 .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameEntityForThePerson> _:genid7 .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameEntityForThePerson> _:genid8 .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameEntityForThePerson> _:genid9 .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#variantNameEntityForThePerson> _:genid10 .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#preferredNameForThePerson> "Carton de Wiart, Henry" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#preferredNameEntityForThePerson> _:genid11 .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#professionOrOccupation> <http://d-nb.info/gnd/4046517-2> .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#titleOfNobility> <http://d-nb.info/gnd/4021778-4> .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#gndSubjectCategory> <http://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p> .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#geographicAreaCode> <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-BE> .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#publication> "La Belgique en terre d'asile. - 1915" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#publication> "La Belgique boulevard du droit. - 1916" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#publication> "L'enfant belge et la guerre. - 1918" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#publication> "Boutroux, E\u00CC\u0081tienne E\u00CC\u0081.: Le Droit des nationalite\u00CC\u0081s. - 1915" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#publication> "Boube\u00CC\u0081e, Joseph: La Belgique loyale, he\u00CC\u0081roi\u00CD\u008F\u00CC\u0088que et malheureuse. - 1916" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#publication> "Nothomb, Pierre: Les barbares en Belgique. - 1915" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#publication> "Wat de Belgen uit bezet Belgie over de bestuurlijke scheiding denken. - 1917" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#publication> "Administrative separation, what Belgians in invaded Belgium think of it. - 1918" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#publication> "De slag aan den Yser. - 1917" .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Belg. Politiker"@de .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Politiker"@de .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#gender> <http://d-nb.info/standards/vocab/gnd/gender#notKnown> .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#dateOfBirth> "1869"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://d-nb.info/gnd/123556082> <http://d-nb.info/standards/elementset/gnd#dateOfDeath> "1951"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+_:genid1 <http://d-nb.info/standards/elementset/gnd#forename> "Henry Carton" .
+_:genid1 <http://d-nb.info/standards/elementset/gnd#prefix> "de" .
+_:genid1 <http://d-nb.info/standards/elementset/gnd#surname> "Wiart" .
+_:genid2 <http://d-nb.info/standards/elementset/gnd#forename> "Carton" .
+_:genid2 <http://d-nb.info/standards/elementset/gnd#prefix> "de" .
+_:genid2 <http://d-nb.info/standards/elementset/gnd#surname> "Wiart" .
+_:genid3 <http://d-nb.info/standards/elementset/gnd#forename> "Henri" .
+_:genid3 <http://d-nb.info/standards/elementset/gnd#surname> "Carton de Wiart" .
+_:genid4 <http://d-nb.info/standards/elementset/gnd#forename> "H." .
+_:genid4 <http://d-nb.info/standards/elementset/gnd#surname> "Carton de Wiart" .
+_:genid5 <http://d-nb.info/standards/elementset/gnd#forename> "Henri Carton" .
+_:genid5 <http://d-nb.info/standards/elementset/gnd#prefix> "de" .
+_:genid5 <http://d-nb.info/standards/elementset/gnd#surname> "Wiart" .
+_:genid6 <http://d-nb.info/standards/elementset/gnd#forename> "Henry Victor Marie Ghislain" .
+_:genid6 <http://d-nb.info/standards/elementset/gnd#surname> "Carton de Wiart" .
+_:genid7 <http://d-nb.info/standards/elementset/gnd#forename> "Henry" .
+_:genid7 <http://d-nb.info/standards/elementset/gnd#surname> "Carton de Wiart" .
+_:genid7 <http://d-nb.info/standards/elementset/gnd#nameAddition> "Comte" .
+_:genid8 <http://d-nb.info/standards/elementset/gnd#forename> "Henry C." .
+_:genid8 <http://d-nb.info/standards/elementset/gnd#prefix> "de" .
+_:genid8 <http://d-nb.info/standards/elementset/gnd#surname> "Wiart" .
+_:genid8 <http://d-nb.info/standards/elementset/gnd#nameAddition> "Comte" .
+_:genid9 <http://d-nb.info/standards/elementset/gnd#personalName> "Carton de Wiart" .
+_:genid9 <http://d-nb.info/standards/elementset/gnd#nameAddition> "Comte" .
+_:genid10 <http://d-nb.info/standards/elementset/gnd#forename> "Carton" .
+_:genid10 <http://d-nb.info/standards/elementset/gnd#prefix> "de" .
+_:genid10 <http://d-nb.info/standards/elementset/gnd#surname> "Wiart" .
+_:genid10 <http://d-nb.info/standards/elementset/gnd#nameAddition> "Comte" .
+_:genid11 <http://d-nb.info/standards/elementset/gnd#forename> "Henry" .
+_:genid11 <http://d-nb.info/standards/elementset/gnd#surname> "Carton de Wiart" .

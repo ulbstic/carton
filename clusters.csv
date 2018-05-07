@@ -1,0 +1,39 @@
+Nom cat. (LOD),Count ,Exemples,Equival. cat. man.,Commentaires Anne,Décision
+CATEGORISATION,740,est un,,"- à affiner ? catégorie surreprésentée
+- à mixer avec langages parlés, titres nobiliaires ?
+- quid des rel. familiales ?
+/!\ 'est un Document' du sudoc ?",
+APPELLATION,370,"label, nom de famille, forme littérale, etc.",-,OK,OK
+PRODUCTION,275,"auteur, directeur de publication, éditeur, a préfacé, fondé par...",créateur,"- ne concerne pas que des livres ?
+- quid des lois (lois de 1912 sur la protection de l'enfance)",OK
+IDENTIFIANT,224,"same as, foaf, ...",?,- distinguer les identifiants internes / externes (renvois vers ISNI etc.) ?,OK
+METADONNEES,173,"métadonnées de citation, citations biblio, métadonnées techniques, ...",créateur ,"- les citations se rapportant aux livres = avec production ? overlap entre les 2 catégories
+- distinguer métadonnées techniques/admin de celles se rapportant à des ouvrages",opérer séparation
+RELATION,79,"a précédé
+a succédé à 
+successeur
+...",relations + politique,"-quelle acception ? inclue aussi des amis ? correspondants ?
+",OK (au sens large)
+DESCRIPTION,61,"genre
+description (abstract)","infos de base ? 
+pas d'équivalence, tout a été subdivisé en triplets... ",-overlap avec dates + location + profession...,
+DATES,55,"date de naissance
+date de mort
+dates en général","infos de base (mais cat. plus large), études ('a étudié à')","un peu étrange de séparer dates et lieux, mais OK",OK
+LOCALISATION,25,"lieu de naissance
+lieu de mort
+pays",,,OK
+AFFILIATION,15,"(affiliation à un) parti
+a appartenu au gouvernement de...",politique (ancienne cat. 'membre'),"-cette catégorie se distingue PROFESSION car on parle pas de fonction, mais d'une appartenance à un groupe en particulier, c'est ça ?
+- par contre, c'est très proche de RELATION je trouve, mais j'imagine que c'est pareil, on insiste sur le gouvernement plutôt que sur la personne...",
+PROFESSION,15,"""fonctions"" politiques incluent (premier ministre, député, ...)",profession,"- dans quelle catégorie vont les études (que j'avais combinées avec profession) ?
+- overlap avec Description (Belgian former PM)
+- overlap avec Catégorisation (Belgian writers...)",
+DIVERS,8,"- titres nobiliaires
+- langues
+- prix","titres honorifiques, ...","- est-ce que ça ne vaudrait pas la peine de créer une catégories (titres honorifiques et prix/décorations) ?
+- langues pourrait aller avec cette nouvelle catégorie extraite de 'catégorisation' je pense",
+,,,,,
+,,,,,
+,,,,,
+FAMILLE ?,,,,,

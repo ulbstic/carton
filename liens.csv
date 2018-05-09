@@ -51,11 +51,11 @@ BNE,Viaf,Directed
 BNE,LOC/LCCN,Directed
 BNE,DBpedia,Directed
 BNE,Wikipedia(EN),Directed
-DBedia,Wikidata,Directed
-DBedia,GND/dnb,Directed
-DBedia,Freebase,Directed
-DBedia,Yago,Directed
-DBedia,Wikidata-DBpedia,Directed
+DBpedia,Wikidata,Directed
+DBpedia,GND/dnb,Directed
+DBpedia,Freebase,Directed
+DBpedia,Yago,Directed
+DBpedia,Wikidata-DBpedia,Directed
 Wikipedia(EN),ISNI,Directed
 Wikipedia(EN),Ark/dataBNF,Directed
 Wikipedia(EN),idref/sudoc,Directed

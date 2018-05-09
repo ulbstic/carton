@@ -1,0 +1,33 @@
+﻿Wikidata
+
+Henri ou Henry Carton de Wiart (prénom : Henry, nom : Carton) est un écrivain et homme politique belge francophone, membre du Parti Catholique, né le 31 janvier 1869 à Bruxelles et mort le 6 mai 1951 à Uccle. Il a exercé la fonction de Premier ministre de Belgique du 20 novembre 1920 au 16 décembre 1921, en remplacement de Léon Delacroix. Son successeur fut Georges Theunis. Il fut membre de la Chambre des représentants (période inconnue) et de l'Académie royale de langue et de littérature françaises de Belgique (du 9 août 1920 à sa mort, où il fut remplacé par Hislaire Duesberg). Il possède une fiche dans plusieures versions de Wikipedia (liste) ainsi que dans plusieurs bases de données (liste).
+
+DBpedia en
+
+Henri ou Henry Carton de Wiart (prénom : Henri, nom : Carton) est "un écrivain et homme politique belge" francophone, membre du Parti Catholique, né le 31 janvier 1869 à Bruxelles et mort le 6 mai 1951 à Uccle. Il appartient à la classe "ministre". Il a exercé la fonction de Premier ministre de Belgique. Il a eu comme prédecesseur Georges Theunis et comme successeur Léon Delacroix. Son monarque était Albert Ier. Il a exercé durant la période temporelle Henry_Carton_de_Wiart_1 (20/11/1920-16/12/1921). Il appartient notamment aux catégories ministre d'Etat, ministre de la Justice et Comtes de Belgique. C'est un aristocrate, un chef, un leader, un personnage officiel, un comte, un travailleur compétent... Il possède des fiches dans plusieurs autres versions linguistique de DBpedia, dans Wikidata, d-nb, ainsi que dans Wikipedia (où il a une photo).
+
+
+DBpedia fr
+
+Henry Carton de Wiart "était un écrivain et un homme politique belge" né le 31 janvier 1869 à Bruxelles et mort le 6 mai 1951 à Uccle. Il était de nationalité belgique. Il était membre du Parti catholique et habitait Rue de la loi, sa résidence est le "16". Il a eu comme occupation "Premier ministre de Belgique" dans Henry_carton_de_Wiart_1, du 1er janvier 1929 au 1er janvier 1921, en remplacement de Georges Theunis et avant Léon Delacroix. Il a comme gouvernement la fiche wikipedia "gouvernement_carton_de_wiart", avec comme fonction "", à partir du 20 novembre 1920 et jusqu'au 16 décembre 1921. Son monarque était Albert Ier. C'est une personne, politicien. Il possède un lien quelconque (dans DBpedia même) avec Liège, avec Léopold III, marcel Thiry, le Mouvement wallon, Prosepr Poulet, la Question royale, la Werhmarcht, avec plusieurs législatures de la Chambre des représentants, avec l'Académie royale de langues..., avec Albert Houtart, Gaston EyskensAdolf  Daens, Jean Duvieusart, avec le Collège Saint-Michel, Edmond Carton de Wiart, les cours de morale, le cercle Léon XIII... Il figure dans les listes de Premiers ministres belges, de ministres de la Justice, de l'intérieur, d'Etat, de l'éducation en Belgique francophone. Il est sujet des catégories ancien député, ministre d'Etat, ministres belges de la justice, de l'Intérieur, comte, membre de l'académie royale, ancien député, écrivain du XIXe et du XXe siècle, écrivain francophone. Il a appartenu à une colation Parti_catholique, PLP, POB. 
+
+DBpedia nl
+
+Henri Carton de Wiart "était un homme politique belge qui a été premier ministre". Il est né le 31 janvier 1869 à Bruxelles et mort le 6 mai 1951 à Uccle. Son monarque était Albert 1er. Son parti est le CDH. (!) Il a eu comme prédecesseurs Albert Lilar, Hendrik Heyman, Henry Jaspar, Léon de Lantsheere, Léon Delacroix et Paul De Groote (informations répétées dans la propriété voorgangers et la proprité vorige). Il a eu comme successeurs André_Dequae, Edmond_Rubbens, Emile_Vandervelde, Georges_Theunis, Ludovic_Moyersoen et Paul_Berryer (informations répétées dans la propriété opvolgers). Il est lié à plusieurs listes de fonctions ministérielles (Justice, Intérieur, travail et affaires sociales, ravitaillement, premiers ministres). Il est lié à une série d'autres pages DBpedia nl plus importante que dans les versions fr et en de DBpedia, ce qui explique le grand nombre de triples que contient DBpedia nl.
+
+Yago
+
+Son intérêt réside principalement dans la longue liste de catégories (classes) et de liens Wikipedia, en grande partie reprises par DBpedia. Mais où sont les définitions de ces classes ? 
+
+ 
+
+Remarques:
+
+- Quel est le prénom de HCW ? Il existe déjà une contradiction entre Wikidata et DBpedia, tandis que DBpedia fr ne fournit pas cette information dans un format structuré (pas de prorpiété given_name).
+
+- Dans les DBpedia et Yago, les descriptions en langage naturel sont souvent indispensables pour pouvoir résumer une personne. Il n'existe pas de données structurée permettant toujours de dire "X est avant tout un <y>", ou alors de manière très vague ("X est un ministre")
+
+- DBpedia fr renvoie vers plus d'autres fiches Wikipedia de Carton de Wiart que DBpedia en (12 liens owl:sameAs contre 10).
+
+- 
+

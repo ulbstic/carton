@@ -1,4 +1,11 @@
 Source,Target,Type
+Wikidata,Wikipedia(EN),Directed
+DBpedia,dbpedia-pt,Directed
+DBpedia,dbpedia-nl,Directed
+DBpedia,dbpedia-ja,Directed
+DBpedia,dbpedia-it,Directed
+DBpedia,dbpedia-de,Directed
+DBpedia,dbpedia-fr,Directed
 Wikidata,ISNI,Directed
 Wikidata,Ark/dataBNF,Directed
 Wikidata,idref/sudoc,Directed

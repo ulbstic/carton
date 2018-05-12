@@ -3,7 +3,7 @@ slide Alex dans le LOD cloud
 
 Je vous présente Alex. Alex est un robot, un programme informatique si vous préférez. Il n'existe pas encore, mais nous allons imaginer qu'il existe afin d'effectuer une expérience de pensée. 
 
-Alex est capable d'effectuer des requêtes informatiques et de lire les résultats seulement s'ils sont dans un format structuré, par exemple XML ou JSON. Mais comme tous les robots, il ne comprend pas le langage naturel. Il ne sait pas ce que veut dire la phrase "Socrate est un homme". En revanche, il peut écrire des phrases à partir d'information structurées comme des triples RDF. 
+Alex est capable d'effectuer des requêtes informatiques et de lire les résultats seulement s'ils sont dans un format structuré, par exemple XML ou JSON. Comme tous les robots, il ne comprend pas le langage naturel. Il ne sait pas ce que veut dire la phrase "Socrate est un homme". En revanche, il peut écrire des phrases à partir d'information structurées comme des triples RDF. 
 
 Je rappelle qu'Alex n'existe pas, mais il pourrait très bien être codé. Il existe déjà des programmes capables d'écrire des articles journalistiques simples, par exemple des dépêches de météo ou des résultats d'élections.
 

@@ -5,7 +5,7 @@
 {\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}
 {\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\paperw11900\paperh16840\margl1440\margr1440\vieww12560\viewh16000\viewkind0
 \deftab720
 \pard\pardeftab720\sl340\sa280\partightenfactor0
 
@@ -15,11 +15,8 @@
 
 \b0\fs24 \cf0 Hello everyone.\
 Please let me introduce you to Henry Carton de Wiart, a famous Belgian personality. He is a key component of our case-study.\
-His many functions and his life made him an interesting guinea pig.\
-As you may know, he has been very involved in politics until the end of his long life, including being Justice ministry and even Prime Minister. Member or president of many councils and organisations, he has been honored by several awards and distinctions.\
-However, Henry Carton de Wiart was not only a politician, but also a lawyer and a writer.\
-Part of a large noble family, he was in contact with many well-known personalities, from the poet Verlaine to the President Wilson.\
-We could go for a while, the man having been very active during his life\'85\
+Part of a large noble family, he has been minister several times, Prime Minister, president of many councils and also a lawyer and a writer\'85 And I\'92m sure some of you know that the belgian city Li\'e8ge is also called \'91La Cit\'e9 ardente\'92. This nickname comes from one of his book. \
+We could go for a while, because Henry has been very active during his life\'85\
 But maybe you already see our point: there is enough information about him to observe how linked open data document his life.\
 In the next slides, I will present with my colleague Ettore a close-reading analysis of linked data about that guy.\
 \
@@ -28,41 +25,41 @@ In the next slides, I will present with my colleague Ettore a close-reading anal
 \b\fs28 \cf0 2 - Close-reading?\
 \pard\pardeftab720\sl280\sa240\partightenfactor0
 
-\b0\fs24 \cf0 Usually, when we speak about Linked Data, which are known to be machine-readable and promising for cultural heritage institutions, we first think about stuff like Big Data, data mining or network analysis... in one word: distant-reading approaches.\
-For our presentation today, we wanted to reverse the process and choose something a little more experimental: trying a close-reading rather than a distant-reading analysis.\
-The current context is marked by discussions about how archives should adapt their archival descriptions to linked data principles and furthermore, maintaining data is known to be one of the huge challenges we\'92ll have to face.\
-So, instead of observing global characteristics of linked data resources, we decided to focus on one single entity and to cast a wide net in our search for resources about that entity.\
-\
+\b0\fs24 \cf0 Usually, when we speak about Linked Data we first think about stuff like Big Data, data mining or network analysis... in one word: distant-reading approaches.\
+For our presentation today, we wanted to reverse the process and choose something a little more experimental: trying a close-reading analysis of Linked Data.\
+Currently, there is a lot of discussions about how archives should adapt their archival descriptions to linked data principles. However, maintaining data is known to be one of the huge challenges we\'92ll have to face.\
+So, instead of observing global characteristics of linked data resources, we decided to focus on one single entity and its data quality.\
 \pard\pardeftab720\sl340\sa280\partightenfactor0
 
-\b\fs28 \cf0 3 - \'91Continuum\'92\
+\b\fs28 \cf0 \
+3 - \'91Continuum\'92\
 \pard\pardeftab720\sl280\sa240\partightenfactor0
 
-\b0\fs24 \cf0 Linked data appeared in a landscape of pre-existing resources.\
-Even if our case study is still a work in progress, we can already offer an overview of online resources about Henry Carton de Wiart. They consist of a continuum, going from very structured data to unstructured data.\
+\b0\fs24 \cf0 Linked data fit in a landscape of pre-existing resources.\
+Online resources about Henry consist of a continuum, going from very structured data to unstructured data.\
 At one end, we have the most structured data, which correspond to linked data, namely Wikidata, Viaf, DBpedia, etc.\
-And at the other end are situated less structured data, like this scann version of the national biography of Henry Carton de Wiart.\
+And at the other end are situated less structured data, like the national biography of Henry.\
 In between, we find RDF triples from several archives and libraries, archival descriptions in XML or Wikpedia pages.\
-Our intention was to test and confront these various sources, to observe to what extent they were consistent and also if they were rather redundant or complementary?\
-Since our methodology was based on the choice of one single individual, we are aware that our data is not fully representative. Our aim is rather to identify the possibilities and limits of structured and less structured data.\
+Our intention was to test and confront these various sources, to observe to what extent they were consistent and complementary?\
 Now I give the floor to Ettore, who will begin with the linked open data cloud.\
 \
 \pard\pardeftab720\sl340\sa280\partightenfactor0
 
-\b\fs28 \cf0 Manual triplification\
+\b\fs28 \cf0 5. Manual triplification\
 \pard\pardeftab720\sl280\sa240\partightenfactor0
 
 \b0\fs24 \cf0 After this first exploration with the help of Alex, we wanted to take a close look at the data contained in less structured resources.\
 We try to do that by acting as if we were an archivist, who would like to inject biographical information into the Linked Data cloud, in other words, a manual triplification.\
-We used three different types of resources: an EAC-CPF xml file and an EAD file from the State Archives and the national biography.\
-For this triplification process, we took every sentence of well-written text and try to translate every single piece of information about Henry into RDF triples (subject, property, object). It results in several hundreds statements.\
+We used three different types of resources: an EAC and an EAD files from the State Archives and the national biography about Henry.\
+During this triplification process, we took all sentences and tried to extract and translate every single piece of information about Henry into RDF triples (subject, property, object). \
 \
 \pard\pardeftab720\sl340\sa280\partightenfactor0
 
-\b\fs28 \cf0 Limits\
+\b\fs28 \cf0 6. Limits\
 \pard\pardeftab720\sl280\sa240\partightenfactor0
 
-\b0\fs24 \cf0 During this triplification process, we encountered several limits; we have identified three types:\
+\b0\fs24 \cf0 During this triplification process, which results in several hundreds statements, we observed several limits.\
+We have identified three types: limits related to the data, to the triple structure and to the vocabulary:\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
 \ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
 The data\
@@ -76,14 +73,14 @@ Besides practical aspects and available human resources, at what level of detail
 \ls2\ilvl1\kerning1\expnd0\expndtw0 {\listtext	
 \f1 \uc0\u9702 
 \f0 	}\expnd0\expndtw0\kerning0
-Furthermore, if we\'92re in archival context, should we use only the biographical or historical section of the EAD or also include other levels of description? For example, letters exchanged with other personalities can help to get a list of people connected to {\field{\*\fldinst{HYPERLINK "http://henry.in/"}}{\fldrslt \cf2 \ul \ulc2 Henry.}}\
+Furthermore, if we\'92re in archival context, should we use only the biographical or historical section of the EAD or also include other levels of description? For example, letters exchanged with other personalities can help to get a list of people connected to Henry. \
 \ls2\ilvl1\kerning1\expnd0\expndtw0 {\listtext	
 \f1 \uc0\u9702 
 \f0 	}\expnd0\expndtw0\kerning0
 In addition, when we start describing someone's life, several other persons are directly or indirectly related to this person. We may also include professions and main dates for his family, his brothers but also cousins, etc. How far should we go to value this contextual information in the form of triples?\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
 \ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
-The format\
+The triple structure\
 \pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl280\partightenfactor0
 \ls2\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	
 \f1 \uc0\u9702 
@@ -112,21 +109,25 @@ To sum up, the more precise is a vocabulary, the more we can express. For exampl
 \ls2\ilvl1\kerning1\expnd0\expndtw0 {\listtext	
 \f1 \uc0\u9702 
 \f0 	}\expnd0\expndtw0\kerning0
-During the triplification process, most data has been translated in RDF triples without issues. In a few cases, we lacked vocabularies terms to express more atypical statements, such as details about his personality, or mentions about his activist activities in the context of social struggles. Obvisouly, it raises the question of the long tail\'85 to what extent should we create new properties for each specific case?\
+During the triplification process, most data has been translated in RDF triples without issues. In a few cases, we lacked vocabularies terms to express more atypical statements, such as details about his personality, or mentions about his activist activities in the context of social struggles. Obviously, it raises the question of the long tail\'85 to what extent should we create new properties for each specific case?\
 \pard\pardeftab720\sl280\sa240\partightenfactor0
 \cf0 \
 \pard\pardeftab720\sl340\sa280\partightenfactor0
 
-\b\fs28 \cf0 What if\'85?\
+\b\fs28 \cf0 7. What if\'85?\
 \pard\pardeftab720\sl280\sa240\partightenfactor0
 
-\b0\fs24 \cf0 So, let\'92s imagine: an institution like the State Archives of Belgium, with million of data collected for years, wishes to make them more visible and shareable by publishing them in the LOD cloud. However, as seen in previous slide, some properties are currently missing to express some concepts.\
+\b0\fs24 \cf0 So, let\'92s imagine an institution like the State Archives of Belgium, with million of data collected for years, wishes to make them more visible and shareable by publishing them in the LOD cloud. \
+However, as seen in previous slide, some properties are currently missing to express some concepts.\
 There would be 2 main options in this case:\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
-\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}firstly, \expnd0\expndtw0\kerning0
 the enrichment of pre-existing vocabularies, such as {\field{\*\fldinst{HYPERLINK "http://schema.org/Person"}}{\fldrslt \cf2 \ul \ulc2 http://schema.org/Person}}\
-\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
-the creation of new linked open vocabularies, with all the efforts that requires. See for example the Records in Context Ontology initiative\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}secondly, \expnd0\expndtw0\kerning0
+the creation of new linked open vocabularies, with all the efforts that require. We can think about the Records in Context Ontology initiative, for example.\
+\pard\tx566\pardeftab720\sl280\partightenfactor0
+\cf0 \
 \pard\pardeftab720\sl280\sa240\partightenfactor0
-\cf0 One alternative would be the injection of data directly in Wikidata. In that case, the institution could suggest the add of new properties and takes part in ongoing \
+\cf0 One alternative would be the injection of data directly in Wikidata. \
+In that case, the institution could suggest the addition of new properties and take part in ongoing discussions.\
 }

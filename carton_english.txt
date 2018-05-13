@@ -1,12 +1,12 @@
 Alex slide in the cloud LOD
 
-You probably know that there are nowadays computer programs able to write small journalistic papers. For example, weather reports, election results or, as in this cas, financial reports. This technology is called robot journalism. 
+You probably know that there are nowadays computer programs able to write small journalistic papers. For example, weather reports, election results or, as in this case, financial reports. This technology is called robot journalism. 
 
-In this thought experiment, we will imagine that we have one of these robots - Let's call him Alex - and this robot is able to write biographic text, exactly as an archivist.
+In this thought experiment, we will imagine that we have one of these robots - Let's call him Alex - and this robot is able to write biographic texts, exactly as an archivist.
 
 Alex is able to perform queries on the web and read results only if they are in a structured format, such as XML or JSON. Like all robots, he does not understand natural language, but he can write sentences from structured information like RDF triples. So, he can write that Henry Carton de Wiart is a Belgian politician born on Bruxelles and so on. Fine ?
 
-Let's suppose we will ask Alex to enter the so-called Linked open data cloud and collect all the triples he finds regarding Henry Carton de Wiart. DBpedia is often considered the focal point of the Linked Open Data cloud. So we'll ask Alex to go to the Carton de Wiart's DBpedia page, collect the RDF information from it, and follow the links to other LOD cloud databases.
+Let's suppose we will ask Alex to enter the so-called Linked open data cloud and collect all the triples he finds regarding Henry Carton de Wiart. DBpedia is often considered the focal point of the Linked Open Data cloud. So we'll ask Alex to go to the Carton de Wiart's DBpedia page, collect the RDF information from it, and follow the links to other databases.
 
 Graph of links between Knowledge bases (chart)
 

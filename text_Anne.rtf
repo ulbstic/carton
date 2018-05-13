@@ -3,8 +3,10 @@
 {\colortbl;\red255\green255\blue255;\red0\green0\blue233;}
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
 {\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}
-{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
-{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid202\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid302\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}}
 \paperw11900\paperh16840\margl1440\margr1440\vieww12560\viewh16000\viewkind0
 \deftab720
 \pard\pardeftab720\sl340\sa280\partightenfactor0
@@ -49,7 +51,7 @@ Now I give the floor to Ettore, who will begin with the linked open data cloud.\
 \pard\pardeftab720\sl280\sa240\partightenfactor0
 
 \b0\fs24 \cf0 After this first exploration with the help of Alex, we wanted to take a close look at the data contained in less structured resources.\
-We try to do that by acting as if we were an archivist, who would like to inject biographical information into the Linked Data cloud, in other words, a manual triplification.\
+We try to do that by acting as if we were an archivist, who would like to inject biographical information into the Linked Data cloud, in other words, a manual triplification of metadata about Henry.\
 We used three different types of resources: an EAC and an EAD files from the State Archives and the national biography about Henry.\
 During this triplification process, we took all sentences and tried to extract and translate every single piece of information about Henry into RDF triples (subject, property, object). \
 \
@@ -58,10 +60,10 @@ During this triplification process, we took all sentences and tried to extract a
 \b\fs28 \cf0 6. Limits\
 \pard\pardeftab720\sl280\sa240\partightenfactor0
 
-\b0\fs24 \cf0 During this triplification process, which results in several hundreds statements, we observed several limits.\
+\b0\fs24 \cf0 During this triplification process, which results in several hundred statements, we observed several limits which can make difficult to deliver a net and representative presentation of Henry.\
 We have identified three types: limits related to the data, to the triple structure and to the vocabulary:\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
-\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 6.1 \expnd0\expndtw0\kerning0
 The data\
 \pard\pardeftab720\sl280\sa240\partightenfactor0
 \cf0 The central question is the granularity:\
@@ -78,35 +80,41 @@ Furthermore, if we\'92re in archival context, should we use only the biographica
 \f1 \uc0\u9702 
 \f0 	}\expnd0\expndtw0\kerning0
 In addition, when we start describing someone's life, several other persons are directly or indirectly related to this person. We may also include professions and main dates for his family, his brothers but also cousins, etc. How far should we go to value this contextual information in the form of triples?\
+\pard\tx566\tx1133\pardeftab720\sl280\partightenfactor0
+\cf0 \
+6.2 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
-\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
 The triple structure\
 \pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl280\partightenfactor0
-\ls2\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	
+\ls3\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	
 \f1 \uc0\u9702 
 \f0 	}\expnd0\expndtw0\kerning0
 Some limits derive from the format itself. For example, the reification principle, when the translation of one single sentence would result in 5 or 6 different triples.\
-\ls2\ilvl1\kerning1\expnd0\expndtw0 {\listtext	
+\ls3\ilvl1\kerning1\expnd0\expndtw0 {\listtext	
 \f1 \uc0\u9702 
 \f0 	}\expnd0\expndtw0\kerning0
 Additionally, while a piece of knowledge expressed by words in a biography, like 'Henry had 4 brothers', it has to be inferred from others statements in the linked data language (for example counting the number of 'brother of').\
+\pard\tx566\tx1133\pardeftab720\sl280\partightenfactor0
+\cf0 \
+6.3 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
-\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\ls4\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
 The vocabulary\
 \pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl280\partightenfactor0
-\ls2\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	
+\ls4\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	
 \f1 \uc0\u9702 
 \f0 	}\expnd0\expndtw0\kerning0
 To express facts about someone in RDF triples, we need a property to define the semantic relationship between a subject and an object. For example, 'Henry / occupation / writer.' Several RDF vocabularies can be used to specify this relationship. It means that the nature of these vocabularies determines what can be express. \
-\ls2\ilvl1\kerning1\expnd0\expndtw0 {\listtext	
+\ls4\ilvl1\kerning1\expnd0\expndtw0 {\listtext	
 \f1 \uc0\u9702 
 \f0 	}\expnd0\expndtw0\kerning0
 Again, we have noticed some limits related to granularity. Thus, according to the vocabulary chosen, we were able to express that Henry Carton de Wiart was an author of a book OR we could precise he was the author of the preface. In a family context, depending on what vocabulary we used, we can precise someone is an uncle, OR just describe the fact that is a relative. In this case, we would loose details and have uncle and cousin described by the same vague property.\
-\ls2\ilvl1\kerning1\expnd0\expndtw0 {\listtext	
+\ls4\ilvl1\kerning1\expnd0\expndtw0 {\listtext	
 \f1 \uc0\u9702 
 \f0 	}\expnd0\expndtw0\kerning0
 To sum up, the more precise is a vocabulary, the more we can express. For example in the field of social relationship, one vocabulary called 'relationship' allows us to qualify 'acquaintance of', 'friend of', 'a close friend of', 'lost contact with', 'has met', etc. However, sometimes it appears quite difficult to evaluate the specific nature of a relationship between two dead people... \
-\ls2\ilvl1\kerning1\expnd0\expndtw0 {\listtext	
+\ls4\ilvl1\kerning1\expnd0\expndtw0 {\listtext	
 \f1 \uc0\u9702 
 \f0 	}\expnd0\expndtw0\kerning0
 During the triplification process, most data has been translated in RDF triples without issues. In a few cases, we lacked vocabularies terms to express more atypical statements, such as details about his personality, or mentions about his activist activities in the context of social struggles. Obviously, it raises the question of the long tail\'85 to what extent should we create new properties for each specific case?\
@@ -121,9 +129,9 @@ During the triplification process, most data has been translated in RDF triples 
 However, as seen in previous slide, some properties are currently missing to express some concepts.\
 There would be 2 main options in this case:\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
-\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}firstly, \expnd0\expndtw0\kerning0
+\ls5\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}firstly, \expnd0\expndtw0\kerning0
 the enrichment of pre-existing vocabularies, such as {\field{\*\fldinst{HYPERLINK "http://schema.org/Person"}}{\fldrslt \cf2 \ul \ulc2 http://schema.org/Person}}\
-\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}secondly, \expnd0\expndtw0\kerning0
+\ls5\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}secondly, \expnd0\expndtw0\kerning0
 the creation of new linked open vocabularies, with all the efforts that require. We can think about the Records in Context Ontology initiative, for example.\
 \pard\tx566\pardeftab720\sl280\partightenfactor0
 \cf0 \

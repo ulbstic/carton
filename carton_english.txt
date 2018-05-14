@@ -1,42 +1,47 @@
 Alex slide in the cloud LOD
 
-You probably know that there are nowadays computer programs able to write small journalistic papers. For example, weather reports, election results or, as in this case, financial reports. This technology is called robot journalism. 
+The text on the screen was not written by a human, but by an algorithm. You probably know that, nowadays, computer programs are able to write small journalistic papers. For example, weather reports, election results or, as in this case, financial reports. This technology is called robot journalism. 
 
-In this thought experiment, we will imagine that we have one of these robots - Let's call him Alex - and this robot is able to write biographic texts, exactly as an archivist.
+Alex 2
 
-Alex is able to perform queries on the web and read results only if they are in a structured format, such as XML or JSON. Like all robots, he does not understand natural language, but he can write sentences from structured information like RDF triples. So, he can write that Henry Carton de Wiart is a Belgian politician born on Bruxelles and so on. Fine ?
+What if a robot could write authority files based on information in the Linked data? In this thought experiment, we will imagine that we have one of these robots - Let's call him Alex - and this robot is able to write biographic texts, a bit like an archivist.
 
-Let's suppose we will ask Alex to enter the so-called Linked open data cloud and collect all the triples he finds regarding Henry Carton de Wiart. DBpedia is often considered the focal point of the Linked Open Data cloud. So we'll ask Alex to go to the Carton de Wiart's DBpedia page, collect the RDF information from it, and follow the links to other databases.
+Alex can perform queries on the web and "understand" the results only if they are in a structured format, such as XML or JSON. Like all robots, he does not understand natural language, but he can write sentences from structured information like RDF triples. So, he can write that Henry Carton de Wiart is a Belgian politician born on Bruxelles and so on. Fine ?
+
+Lod cloud
+
+Let's suppose we will ask Alex to enter the so-called Linked open data cloud and collect all the triples he finds regarding Henry Carton de Wiart. DBpedia is often considered the focal point of the Linked Open Data cloud, because a lot of database linked to it. So we'll ask Alex to go to the Carton de Wiart's DBpedia page, collect the RDF information from it, and follow all the links to other databases.
 
 Graph of links between Knowledge bases (chart)
 
-And here is the path he could take from DBpedia. In this chart, the size of each bubble is proportional to the number of outgoing links to other databases. Here we have DBpedia, the entry point. From there, Alex goes to other versions of DBpedia in other languages, then to Yago, then to Freebase (which no longer exists), then to Wikidata. Wikidata is a big bubble because it contains a lot of links. To VIAF, BNF id or the Library of Congress autority ID. Whenever our robot comes in a knowledge base, it collects all the information it finds. Henry Carton de Wiart is a politician. He was born in Brussels. He wrote the novel La Cité ardente. etc.
+And here is the path he could take from DBpedia. In this chart, the size of each bubble, each node, is proportional to the number of outgoing links to other databases. Here we have DBpedia, the entry point. From there, Alex goes to other versions of DBpedia in other languages, then to Yago, then to Freebase (which no longer exists), then to Wikidata. Wikidata is a big bubble because it contains a lot of links. To VIAF, BNF id or the Library of Congress autority ID. Whenever our robot comes in a knowledge base, it collects all the information it finds. Henry Carton de Wiart is a politician. He was born in Brussels. He wrote the novel La Cité ardente. etc.
 
-Large categories of harvested triplets (graphic)
+Open refine slide
 
 In performing the operation, we harvested more than 22,000 triples on Carton de Wiart. This number may seem huge, but the vast majority of these triples are useless. RDF can be a verbose format, sometimes it takes a lot of triples to express something pretty simple. If we eliminate useless triples, we still have a little more than 1500, which use about 240 different properties.
+
+Broad categories
 
 But these properties are often redundant. In order to get a more global view, we have gathered the properties in eleven broad categories. The "appellation" category, for example, uses different labels under which Henry Carton de Wiart is known. There are many because in Viaf, each library uses a slightly different label.
 
 The "category" category is the largest because it includes Wikipedia links - links to other pages or categories contained in Wikipedia. But also the categories in Yago, which are numerous, for example "Henry Carton of Wiart is a legalActor", or "" Henry Carton of Wiart is an Aristocrat "I will not describe the other categories, all this is not very important, I mention it just for the record.
 
-Robot Portrait (2 slides)
+Robot Portrait 
 
-The important thing is the result. As we said, our robot is able to write text from structured data. What ""composite picture"" of Henry Carton de Wiart could he produce on the basis of our triples? Well, a tiny portrait actually. Because if we have a lot of triples, they often say the same thing and often only offer basic information. For the sake of simplicity, I give you the description based only on Wikidata and different versions of DBpedia. The other databases offer about the same information, plus the list of books that Wiart has written or those he collaborated with.
+The important thing is the result. Sorry for this blob of text on the screen, but it's essential to show that the result fit on a single slide. We are far from Carton de Wiart's description in the general archives of the kingdom, and even far enough from his Wikipedia page. Let alone the 8-pages Biographical note in the National Biography.
 
-I let you read this little portrait, but as we can see at first sight, it is not very rich. We are far from Carton de Wiart's description in the general archives of the kingdom, and even far enough from his Wikipedia page. 
+Because if we have a lot of triples, they often say the same thing and often only offer basic information. For the sake of simplicity, I give you the description based only on Wikidata and different versions of DBpedia. The other databases offer about the same information, plus the list of books that Wiart has written or those he collaborated with.
+ 
+In yellow, we see some contradictions. in the first place, it is not easy to know how to write Henry. The spelling changes according to the language. In Wikidata, it is with a Y at the end, in DBpedia, with an I. Another example of contradiction: most knowledge bases tell us that Wiart belonged to the Catholic party, which is right. But DBpedia NL tells us that it was member of the modern party cdH, which is impossible. 
 
+We also note that much of the information in DBpedia or Yago is not really structured. The dutch version of DBpedia tells us that Carton de Wiart is in the Wikipedia list "Lit of belgian minister of justice". But this information would not be really exploitable by a robot. And anyway we do not even know when he was minister of justice. We also note that the properties used by Yago or DBpedia are often poorly defined or not defined at all. It is difficult to know what is the "successor" property, for example. Successor of what? On what position? It's not very clear. 
 
-One of the problems that Alex would have to write this bio are the contradictions. in the first place, it is not easy to know how to write Henry. The spelling changes according to the language. In Wikidata, it is with a Y at the end, in DBpedia, with an I. Another example of contradiction: most knowledge bases tell us that Wiart belonged to the Catholic party, which is right. But DBpedia NL tells us that it was member of the modern party cdH, which is impossible. 
-
-We also note that much of the information in DBpedia or Yago is not really structured. The dutch version of DBpedia tells us that Carton de Wiart is in the Wikipedia list "Lijst_van_Belgische_ministers_van_Justitie". But this information would not be really exploitable by a robot. And anyway we do not even know when he was minister of justice. We also note that the properties used by Yago or DBpedia are often poorly defined or not defined at all. It is difficult to know what is the "successor" property, for example. Successor of what? On what position? It's not very clear. 
-
-Finally, notice that it lacks essential biographical information, for example concerning the studies of Carton de Wiart or his family. Who are his children, does he have cousins, parents, siblings ? Which brings us to the next question: among this missing information, which could be added easily and which would be difficult or impossible to translate into RDF. I give Anne the floor again for this part.
+Finally, notice that it lacks essential biographical information, for example concerning the studies of Carton de Wiart or his family. Does he have a wife, children, cousins, parents, siblings ? Which brings us to the next question: among this missing information, which could be added easily and which would be difficult or impossible to translate into RDF. I give Anne the floor again for this part.
 
 Conclusion, Next steps
 
-We 've seen in this experiment that the linked open data cloud contains a lot of triples about Carton de Wiart, but the total amount of information is quite poor. We have also seen that many other biographical elements can be added as RDF triples, and that there is often a controlled vocabulary that can express them. For example, there is an RDF property that says someone has been taken prisoner. Others, on the other hand, are more difficult to express. But generally, we could create an RDF file containing a lot of information about Carton de Wiart, and use it to ask a robot to write a better biography. 
+We 've seen in this experiment that the linked open data cloud contains a lot of triples about Carton de Wiart, but the total amount of information is quite poor. We've also seen that many other biographical elements can be added as RDF triples, and that there is often a controlled vocabulary that can express them. 
 
-But creating your own RDF files requires time and skills that all cultural institutions do not have. So, another approach  might be to automatically feed Wikidata, since Wikidata can be edited by users, unlike DBpedia. In the coming months, we will explore these tracks. We will also try to generalize this first small experiment conducted with Carton de Wiart on a wider panel of personalities and entities, for example organizations or historical events. In other words, we will leave the close reading approach to return to a more classical distant reading. 
+But creating your own RDF files requires time and skills. So, another approach  might be to automatically feed Wikidata, since Wikidata can be edited by users, unlike DBpedia. In the coming months, we will explore these tracks. We will also try to generalize this first small experiment on a wider panel of personalities and entities, for example organizations or historical events. In other words, we will leave the close reading approach to return to a more classical distant reading based on statistics. 
 
 Thank you for being such an attentive audience. If you have any questions, we'll be happy to answer them for you during the question time.

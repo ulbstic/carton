@@ -1,0 +1,261 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;\f2\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;\red255\green255\blue255;\red26\green26\blue26;
+\red0\green0\blue233;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15300\viewh12100\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+[
+\f1\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 the article can be maximum 10 pages, script Calibri, size 11, interline 1,5, 
+\b due to 15 september 2018
+\b0 ]\
+
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sl300\partightenfactor0
+
+\b\fs26 \cf4 \expnd0\expndtw0\kerning0
+Close-reading of Linked Data: a practical case-study on the quality of online authority files
+\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 Introduction
+\b0 \
+\pard\pardeftab720\sl300\qj\partightenfactor0
+
+\f1\fs26 \cf4 \expnd0\expndtw0\kerning0
+\
+
+\f0 More and more cultural institutions use linked data principles to share and connect their collection descriptions. In the archival field, initiatives emerge to exploit data contained in archival descriptions and adapt encoding standards to the semantic web. In this context, online authority files can be used to enrich metadata. However, relying on decentralized knowledge bases such as Wikidata has its own difficulties due to their broken-world character, where absent or conflicting data require a permanent investment in maintenance and repair. Our presentation aims to offer a critical view of these linked data by adopting a close-reading approach. Through a practical case-study, we intend to identify and illustrate the possibilities and limits of RDF triples compare to institutions' less structured metadata.\'a0
+\f1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qj\partightenfactor0
+
+\fs26 \cf0 Our paper is an invitation to travel in an unexpected way: diving through the Linked Open Data cloud, with the help of Alex, a robot. Before exploring \expnd0\expndtw0\kerning0
+this linked data cloud together, we would like to first introduce you to Henry Carton de Wiart, a famous Belgian personality. Part of a large noble family, he has been minister several times, Prime Minister, president of many councils and a lawyer and a writer as well. The Belgian city Li\'e8ge owes its name to one of his books, La Cit\'e9 ardente. For sake of brevity, all the positions held and the rewards received will not be extensively described here. Still, it already appears that his life contains sufficient information to be used as a case study to observe how linked open data documents his life.\
+\
+While studies about Linked Open Data adopt distant approaches based on methods such as data mining or network analysis, they therefore tend to analyse the data quality of cultural heritage linked data only through the prism of quantitative and comparative analysis, without taking individual items one by one. \
+\
+\'85\
+\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf0 For our presentation today, we wanted to reverse the process and choose something a little more experimental: we wanted to try a close-reading analysis.\
+Currently, there is a lot of discussion about how archives should adapt their archival descriptions to linked data principles. However, maintaining data is known to be one of the huge challenges we\'92ll have to face.\
+So, instead of observing global characteristics of linked data resources, we decided to focus on one single entity and its data quality.\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\f2\b\fs28 \cf0 \'91Continuum\'92\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b0\fs24 \cf0 Linked data fit in a landscape of pre-existing resources.\
+Online resources about Henry consist of a continuum, going from very structured data to unstructured data.\
+At one end, we have the most structured data, which correspond to linked data, namely Wikidata, Viaf, DBpedia, etc.\
+And at the other end are situated less structured data, like the national biography of Henry.\
+In between, we find RDF triples from several archives and libraries, archival descriptions in XML or Wikpedia pages.\
+Our intention was to test and confront these various sources, to observe to what extent they were consistent and complementary?\
+Now I give the floor to Ettore, who will begin with the linked open data cloud.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b \cf0 \kerning1\expnd0\expndtw0 Alex slide in the cloud LOD
+\b0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f2 \cf0 \expnd0\expndtw0\kerning0
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 The text on the screen was not written by a human, but by an algorithm. You probably know that, nowadays, computer programs are able to write small journalistic papers. For example, weather reports, election results or, as in this case, financial reports. This technology is called robot journalism. \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 Alex 2\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 \
+What if a robot could write authority files based on information in the Linked data? In this thought experiment, we will imagine that we have one of these robots - Let's call him Alex - and this robot is able to write biographic texts, a bit like an archivist.\
+\
+Alex can perform queries on the web and "understand" the results only if they are in a structured format, such as XML or JSON. Like all robots, he does not understand natural language, but he can write sentences from structured information like RDF triples. So, he can write that Henry Carton de Wiart is a Belgian politician born on Bruxelles and so on. Fine ?\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 Lod cloud
+\b0 \
+\
+Let's suppose we will ask Alex to enter the so-called Linked open data cloud and collect all the triples he finds regarding Henry Carton de Wiart. DBpedia is often considered the focal point of the Linked Open Data cloud, because a lot of database linked to it. So we'll ask Alex to go to the Carton de Wiart's DBpedia page, collect the RDF information from it, and follow all the links to other databases.\
+\
+Graph of links between Knowledge bases (chart)\
+\
+And here is the path he could take from DBpedia. In this chart, the size of each bubble, each node, is proportional to the number of outgoing links to other databases. Here we have DBpedia, the entry point. From there, Alex goes to other versions of DBpedia in other languages, then to Yago, then to Freebase (which no longer exists), then to Wikidata. Wikidata is a big bubble because it contains a lot of links. To VIAF, BNF id or the Library of Congress autority ID. Whenever our robot comes in a knowledge base, it collects all the information it finds. Henry Carton de Wiart is a politician. He was born in Brussels. He wrote the novel La Cit\'c8 ardente. etc.\
+\
+
+\b Open refine slide
+\b0 \
+\
+In performing the operation, we harvested more than 22,000 triples on Carton de Wiart. This number may seem huge, but the vast majority of these triples are useless. RDF can be a verbose format, sometimes it takes a lot of triples to express something pretty simple. If we eliminate useless triples, we still have a little more than 1500, which use about 240 different properties.\
+\
+
+\b Broad categories
+\b0 \
+\
+But these properties are often redundant. In order to get a more global view, we have gathered the properties in eleven broad categories. The "appellation" category, for example, uses different labels under which Henry Carton de Wiart is known. There are many because in Viaf, each library uses a slightly different label.\
+\
+The "category" category is the largest because it includes Wikipedia links - links to other pages or categories contained in Wikipedia. But also the categories in Yago, which are numerous, for example "Henry Carton of Wiart is a legalActor", or "" Henry Carton of Wiart is an Aristocrat "I will not describe the other categories, all this is not very important, I mention it just for the record.\
+\
+
+\b Robot Portrait 
+\b0 \
+\
+The important thing is the result. Sorry for this blob of text on the screen, but it's essential to show that the result fit on a single slide. We are far from Carton de Wiart's description in the general archives of the kingdom, and even far enough from his Wikipedia page. Let alone the 8-pages Biographical note in the National Biography.\
+\
+Because if we have a lot of triples, they often say the same thing and often only offer basic information. For the sake of simplicity, I give you the description based only on Wikidata and different versions of DBpedia. The other databases offer about the same information, plus the list of books that Wiart has written or those he collaborated with.\
+ \
+In yellow, we see some contradictions. in the first place, it is not easy to know how to write Henry. The spelling changes according to the language. In Wikidata, it is with a Y at the end, in DBpedia, with an I. Another example of contradiction: most knowledge bases tell us that Wiart belonged to the Catholic party, which is right. But DBpedia NL tells us that it was member of the modern party cdH, which is impossible. \
+\
+We also note that much of the information in DBpedia or Yago is not really structured. The dutch version of DBpedia tells us that Carton de Wiart is in the Wikipedia list "Lit of belgian minister of justice". But this information would not be really exploitable by a robot. And anyway we do not even know when he was minister of justice. We also note that the properties used by Yago or DBpedia are often poorly defined or not defined at all. It is difficult to know what is the "successor" property, for example. Successor of what? On what position? It's not very clear. \
+\
+Finally, notice that it lacks essential biographical information, for example concerning the studies of Carton de Wiart or his family. Does he have a wife, children, cousins, parents, siblings ? Which brings us to the next question: among this missing information, which could be added easily and which would be difficult or impossible to translate into RDF. I give Anne the floor again for this part.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\f2 \cf0 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf0 Manual triplification\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b0\fs24 \cf0 After this first exploration, we wanted to take a close look at the data contained in less structured resources.\
+We try to do that by acting as if we were an archivist wishing to inject biographical information into the Linked Data cloud, in other words, a manual triplification of metadata about Henry.\
+We used three different types of resources: an EAC and an EAD files from the State Archives and the national biography about Henry.\
+During this triplification process, we took all sentences and tried to extract and translate every single piece of information about Henry into RDF triples (subject, property, object). \
+\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf0 Limits\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b0\fs24 \cf0 This triplification process results in several hundred statements, far more complete and detailed than what we got through the RDF triples. \
+During this process, we observed several aspects which can lead to loss of information which in turn renders it difficult to deliver a clear and representative description of Henry. \
+We have identified three types of limits, which are respectively related to the data, to the triple structure and to the vocabulary.\
+\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b\fs28 \cf0 \kerning1\expnd0\expndtw0 Think about
+\b0\fs24 \expnd0\expndtw0\kerning0
+\
+
+\b 1// The Data 
+\b0 \
+For the data, of course, we are limited to the completeness of data we possess.\
+A more challenging question is the granularity:\
+- Besides practical aspects and available human resources, at what level of detail should we describe Henry and his life?\
+- Furthermore, if we are in an archival context, should we only use the biographical section of the EAD or also other levels of description? For instance, letters exchanged with other personalities could help to get a list of people connected to Henry. \
+But it raises another question: what should we do with all persons related to him? Indeed, we may also include professions and personal information for family, friends, etc. The question is: how far should we go to value this contextual information in the form of triples?\
+\pard\tx566\tx1133\pardeftab720\sl280\partightenfactor0
+
+\b \cf0 2// The triple structure\
+	\
+
+\b0 The triple structure of RDF requires a different way of expressing things.\
+\
+- For instance the translation of one single sentence results sometimes in 5 or 6 different triples because of the reification principle.\
+\
+- Additionally, if a piece of knowledge can be expressed by words in a biography, like 'Henry had 4 brothers', its full description has sometimes to be inferred from others statements in the linked data language (for example counting the number of 'brother of').
+\b \
+
+\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl280\partightenfactor0
+\ls1\ilvl1
+\b \cf0 3// The vocabulary\
+\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl280\partightenfactor0
+\ls1\ilvl1
+\b0 \cf0 To express facts about someone in RDF triples, several RDF vocabularies can be used to specify the relationship between\
+a subject and an object.\
+\
+-Again, we have noticed some limits related to granularity. \
+\
+Thus, in the family context, depending on what vocabulary we used, we were able to specify that someone was an uncle, OR merely describe the fact that he was a relative. \
+\
+In this case, we would lose details and have uncle and cousin described by the same vague property.\
+\
+In the field of social relationship, one vocabulary called 'relationship' allows us to qualify 'acquaintance of', 'friend of', 'a close friend of', 'has met', etc. \
+\
+Although this representation is useful, sometimes it appears quite difficult to evaluate the specific nature of a relationship between two dead people... \
+\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl280\partightenfactor0
+\ls1\ilvl1\cf0 \kerning1\expnd0\expndtw0 - \expnd0\expndtw0\kerning0
+During the triplification process, most of the data has been translated in RDF triples without issues. In a few cases, we lacked vocabulary terms to express more atypical statements, such as details about Henry\'92s personality, or mentions about his activism in the context of social struggles. \
+\
+Obviously, it raises the question of the long tail\'85 to what extent should we create new properties for each specific case?\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf0 What if\'85?\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b0\fs24 \cf0 So, let\'92s imagine an institution like the State Archives of Belgium, with million of data collected for years, wishes to make them more visible and shareable by publishing them in the LOD cloud. \
+However, as seen in the previous slide, some properties are currently missing to express some concepts.\
+There would be 2 main options for improvement in this case:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
+\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}firstly, \expnd0\expndtw0\kerning0
+enriching the pre-existing vocabularies, such as {\field{\*\fldinst{HYPERLINK "http://schema.org/Person"}}{\fldrslt \cf5 \ul \ulc5 http://schema.org/Person}}\cf5 \ul \ulc5 \
+\pard\tx566\pardeftab720\sl280\partightenfactor0
+\cf0 \ulnone \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}secondly, \expnd0\expndtw0\kerning0
+creating new linked open vocabularies. We can think about the Records in Context Ontology initiative, for example.\
+\pard\tx566\pardeftab720\sl280\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf0 One alternative would be the injection of data directly in Wikidata. \
+In that case, the institution could suggest the addition of new properties and take part in ongoing discussions.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b \cf0 \kerning1\expnd0\expndtw0 Conclusion, Next steps
+\b0 \
+\
+We 've seen in this experiment that the linked open data cloud contains a lot of triples about Carton de Wiart, but the total amount of information is quite poor. We've also seen that many other biographical elements can be added as RDF triples, and that there is often a controlled vocabulary that can express them. \
+\
+But creating your own RDF files requires time and skills. So, another approach  might be to automatically feed Wikidata, since Wikidata can be edited by users, unlike DBpedia. In the coming months, we will explore these tracks. We will also try to generalize this first small experiment on a wider panel of personalities and entities, for example organizations or historical events. In other words, we will leave the close reading approach to return to a more classical distant reading based on statistics. \
+\
+Thank you for being such an attentive audience. If you have any questions, we'll be happy to answer them for you during the question time.\
+\
+\
+Si une personne comme Henry Carton de Wiart soul\'e8ve de telles questions, alors que dire d\'92une personne ayant v\'e9cu une vie beaucoup plus spectaculaire ? Il n\'92y a pas besoin d\'92aller bien loin. Il suffit de penser \'e0 son cousin, Sir Adrian Carton de Wiart, dont la fiche Wikipedia a mis cet h\'e9ros de guerre au choeur d\'92un buzz et qu\'92on appelle d\'e9sormais le \'ab\'a0Chuck Norris\'a0\'bb de la premi\'e8re moiti\'e9 du XXe si\'e8cle. \'ab\'a0Invincible\'a0\'bb\
+Buzz commenc\'e9 sur Twitter (\'ab\'a0ce type a certainement le meilleur paragraphe d\'92introduction de biographie de Wikip\'e9dia de tous les temps\'a0\'bb, @MBarretCH)\
+-N\'e9 le 05/05/1880, d\'e9c\'e9d\'e9 le 05/06/1963 \
+-Ancien combattant de la premi\'e8re et de la seconde guerres mondiales.\
+-officier de l\'92arm\'e9e britannique d\'92ascendance belge et irlandaise\
+-a servi pendant la guerre des Boers\
+-repr\'e9sentant personnel de Churchill \'e0 l\'92\'e9tranger\
+\
+- il s\'92est fait tirer dessus \'e0 divers endroits (visage, t\'eate, estomac, cheville, jambe, hanche, oreille)\
+- il a surv\'e9cu \'e0 un crash d\'92avion\
+- il s\'92est \'e9vad\'e9 d\'92un camp de prisonniers par un tunnel\
+- il s\'92est amput\'e9 lui-m\'eame ses doigts avec ses dents quand un docteur a refus\'e9\
+- a re\'e7u de multiples d\'e9corations\
+- \'e0 propos de la premi\'e8re guerre \'91franchement, j\'92ai appr\'e9ci\'e9 cette guerre\'92\
+\
+Si les prix et d\'e9corations peuvent \'eatre \'91facilement\'92 traduits \'e0 l\'92aide de propri\'e9t\'e9s Wikidata, il n\'92en va pas de m\'eame pour des caract\'e9ristiques aussi atypiques que (\'85)\
+\
+! v\'e9rifier donn\'e9es, croiser sources, pas que Wikipedia\'85\
+\
+}

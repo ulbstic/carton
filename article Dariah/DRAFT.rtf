@@ -1,9 +1,9 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
 {\fonttbl\f0\fnil\fcharset0 Calibri;\f1\fnil\fcharset0 AppleSymbols;}
-{\colortbl;\red255\green255\blue255;\red26\green26\blue26;\red0\green0\blue233;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;}
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
-\vieww16160\viewh13340\viewkind0
+\vieww12640\viewh13340\viewkind0
 \deftab720
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
 
@@ -43,36 +43,30 @@ While many studies about Linked Open Data adopt distant approaches based on meth
 \cf0 \
 
 \b Continuum\
-\pard\pardeftab720\sl360\slmult1\sa240\partightenfactor0
+\pard\pardeftab720\sl360\slmult1\sa240\qj\partightenfactor0
 
 \b0 \cf0 Linked open data fits in a landscape of pre-existing resources, going from unstructured data to very structured data. At one end are situated less structured data, like the national biography of Henry Carton de Wiart, 8 sheets of well-written text, which have been digitised end published online in a PDF version [cf. r\'e9f\'e9rence : http://www.academieroyale.be/Academie/documents/FichierPDFBiographieNationaleTome2102.pdf, p. 86-94]. At the other end, stand the most structured data, which correspond to Linked Data, such as the Wikidata item attributed to Henry [{\field{\*\fldinst{HYPERLINK "https://www.wikidata.org/wiki/Q14990"}}{\fldrslt https://wikidata.org/wiki/Q14990}}], the Viaf entity [{\field{\*\fldinst{HYPERLINK "https://viaf.org/viaf/24623115/"}}{\fldrslt https://viaf.org/viaf/24623115/}}] or the french DBpedia page [http://fr.dbpedia.org/page/Henry_Carton_de_Wiart]. In between, are established more isolated structured data like RDF triples from several archives and libraries [e.g. Data.bnf.fr : {\field{\*\fldinst{HYPERLINK "http://data.bnf.fr/12062835/henry_carton_de_wiart/"}}{\fldrslt http://data.bnf.fr/12062835/henry_carton_de_wiart/}}], archival descriptions in XML [e.g. the EAC-cpf file from the State Archives of Belgium: the https://search.arch.be/eac/xml/eac-BE-A0500_007556_FRE.xml] or Wikipedia pages [e.g. the english version: {\field{\*\fldinst{HYPERLINK "https://en.wikipedia.org/wiki/Henry_Carton_de_Wiart"}}{\fldrslt https://en.wikipedia.org/wiki/Henry_Carton_de_Wiart}}]. \
 While the most structured resources display facts (such as a birth date or death date) very clearly, in a machine-readable format, we can wonder if they provide as many details as a more classical format type, such as the national biography: do they mention its Hennuy\'e8res origins, his correspondence with an apostolic vicar living in Brazzaville, or that day in August 1914 when the Belgian king asked him to lead an extraordinary mission to the United States? Through this case study, we aim to test and confront these various sources and to observe to what extent they are consistent and complementary. \
+\pard\pardeftab720\sl360\slmult1\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sl360\slmult1\sa240\partightenfactor0
+
+\b \cf0 A dive into the LOD cloud\
+\pard\pardeftab720\sl360\slmult1\sa240\qj\partightenfactor0
+
+\b0 \cf0 Alex-the-robot, the main character of our case-study, can be seen as a fictional cousin of these famous "robot journalists". If Alex existed, it would share with them this ability to produce texts which are not written by a human, but by an algorithm. Where a robot journalist produces, for example, weather reports, election results or financial reports, Alex would write biographic texts based on information extracted from the Linked Open Data cloud. It will proceed like a historian who collects pieces of information from various sources, in order to gradually be able to write the portrait of an individual. The only difference is that instead of skimming several resources, Alex would perform queries on the web and then interpret the results, as long as they are in a structured format, such as XML or JSON. Indeed, \kerning1\expnd0\expndtw0 like all robots, he does not understand natural language. However, it is able to write basic sentences based on structured data like RDF triples. It means therefore that Alex is able to write, for example, that someone was born that year, in that location, and practiced this or that job.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\qj\partightenfactor0
+\cf0 His personal skills having been reviewed, Alex is now ready to begin his dive into the Linked Open Data cloud. His mission is to collect as much triples as possible about our man, Henry Carton de Wiart. Its starting point will be DBpedia. Indeed, this Knowledge Basis is often considered as the focal point of the Linked Open Data cloud, towards which converge links from many databases. Thus, we will ask Alex to go to the Carton de Wiart's DBpedia page, to collect RDF data from this page and then to follow all links to external databases.\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
-
-\b \cf0 \kerning1\expnd0\expndtw0 Alex slide in the cloud LOD\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
-
-\b0 \cf0 The text on the screen was not written by a human, but by an algorithm. You probably know that, nowadays, computer programs are able to write small journalistic papers. For example, weather reports, election results or, as in this case, financial reports. This technology is called robot journalism. \
 \
+to collect the RDF information from it, and follow all the links to other databases.\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
-
-\b \cf0 Alex 2\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
-
-\b0 \cf0 What if a robot could write authority files based on information in the Linked data? In this thought experiment, we will imagine that we have one of these robots - Let's call him Alex - and this robot is able to write biographic texts, a bit like an archivist.\
-Alex can perform queries on the web and "understand" the results only if they are in a structured format, such as XML or JSON. Like all robots, he does not understand natural language, but he can write sentences from structured information like RDF triples. So, he can write that Henry Carton de Wiart is a Belgian politician born on Bruxelles and so on. Fine ?\
-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
-
-\b \cf0 Lod cloud
-\b0 \
-Let's suppose we will ask Alex to enter the so-called Linked open data cloud and collect all the triples he finds regarding Henry Carton de Wiart. DBpedia is often considered the focal point of the Linked Open Data cloud, because a lot of database linked to it. So we'll ask Alex to go to the Carton de Wiart's DBpedia page, collect the RDF information from it, and follow all the links to other databases.\
-Graph of links between Knowledge bases (chart)\
+\cf0 Graph of links between Knowledge bases (chart)\
 And here is the path he could take from DBpedia. In this chart, the size of each bubble, each node, is proportional to the number of outgoing links to other databases. Here we have DBpedia, the entry point. From there, Alex goes to other versions of DBpedia in other languages, then to Yago, then to Freebase (which no longer exists), then to Wikidata. Wikidata is a big bubble because it contains a lot of links. To VIAF, BNF id or the Library of Congress autority ID. Whenever our robot comes in a knowledge base, it collects all the information it finds. Henry Carton de Wiart is a politician. He was born in Brussels. He wrote the novel La Cit\'c8 ardente. etc.\
 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
 
-\b Open refine slide
+\b \cf0 Open refine slide
 \b0 \
 In performing the operation, we harvested more than 22,000 triples on Carton de Wiart. This number may seem huge, but the vast majority of these triples are useless. RDF can be a verbose format, sometimes it takes a lot of triples to express something pretty simple. If we eliminate useless triples, we still have a little more than 1500, which use about 240 different properties.\
 \
@@ -175,8 +169,7 @@ There would be 2 main options for improvement in this case:\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl360\slmult1\partightenfactor0
 \cf0 \kerning1\expnd0\expndtw0 firstly, \expnd0\expndtw0\kerning0
 enriching the pre-existing vocabularies, such as {\field{\*\fldinst{HYPERLINK "http://schema.org/Person"}}{\fldrslt http://schema.org/Person}}\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl360\slmult1\partightenfactor0
-\cf0 \kerning1\expnd0\expndtw0 secondly, \expnd0\expndtw0\kerning0
+\kerning1\expnd0\expndtw0 secondly, \expnd0\expndtw0\kerning0
 creating new linked open vocabularies. We can think about the Records in Context Ontology initiative, for example.\
 \pard\pardeftab720\sl360\slmult1\sa240\partightenfactor0
 \cf0 One alternative would be the injection of data directly in Wikidata. \
@@ -190,9 +183,6 @@ In that case, the institution could suggest the addition of new properties and t
 We 've seen in this experiment that the linked open data cloud contains a lot of triples about Carton de Wiart, but the total amount of information is quite poor. We've also seen that many other biographical elements can be added as RDF triples, and that there is often a controlled vocabulary that can express them. \
 \
 But creating your own RDF files requires time and skills. So, another approach  might be to automatically feed Wikidata, since Wikidata can be edited by users, unlike DBpedia. In the coming months, we will explore these tracks. We will also try to generalize this first small experiment on a wider panel of personalities and entities, for example organizations or historical events. In other words, we will leave the close reading approach to return to a more classical distant reading based on statistics. \
-\
-Thank you for being such an attentive audience. If you have any questions, we'll be happy to answer them for you during the question time.\
-\
 \
 Si une personne comme Henry Carton de Wiart soul\'e8ve de telles questions, alors que dire d\'92une personne ayant v\'e9cu une vie beaucoup plus spectaculaire ? Il n\'92y a pas besoin d\'92aller bien loin. Il suffit de penser \'e0 son cousin, Sir Adrian Carton de Wiart, dont la fiche Wikipedia a mis cet h\'e9ros de guerre au choeur d\'92un buzz et qu\'92on appelle d\'e9sormais le \'ab\'a0Chuck Norris\'a0\'bb de la premi\'e8re moiti\'e9 du XXe si\'e8cle. \'ab\'a0Invincible\'a0\'bb\
 Buzz commenc\'e9 sur Twitter (\'ab\'a0ce type a certainement le meilleur paragraphe d\'92introduction de biographie de Wikip\'e9dia de tous les temps\'a0\'bb, @MBarretCH)\

@@ -66,48 +66,46 @@ Figure 1 shows all the links between Knowledge Bases. As aforementioned, the ent
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
 
 \b0 \cf0 \
-During this process, Alex harvested more than 22,000 RDF triples about Carton de Wiart. While this amount can seem huge, it has to be noted that the vast majority of these triples are meaningless. RDF can be a verbose format, requiring something a lot of different triples to express something quite basic. Thus, once the useless triples have being eliminated, there are about 1,500 triples left, which use some 240 distinct properties. \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\qj\partightenfactor0
+\cf0 During this process, Alex harvested more than 22,000 RDF triples about Carton de Wiart. While this amount can seem huge, it has to be noted that the vast majority of these triples are meaningless. RDF can be a verbose format, requiring something a lot of different triples to express something quite basic. Thus, once the useless triples have being eliminated, there are about 1,500 triples left, which use some 240 distinct properties. \
 \
 However, these properties are often redundant. In order to get a global view of their repartition, they have been gathered in eleven broad categories: affiliations; appellations; category, dates; descriptions; identifiers; locations; miscellaneous; professions; relations; works. Figure 2 shows the proportion of triples in each of these categories. Triples have been placed in their respective category according to the property used in the triple. For instance, the property \'92
 \i http://www.w3.org/2000/01/rdf-schema#label
 \i0 ' correspond to the "appellation" category, which encompasses all the different labels under which Henry Carton de Wiart is known. There are many, especially in VIAF, which records the different labels used by libraries: Carton de Wiart\uc0\u8207 , Henry\u8207 ; Carton de Wiart, Henry,\u8207   Comte, 1869-1951\u8207 ; Carton de Wiart, Henry\u8207 \u8206   (1869-1951). The "category" category is the largest because it includes Wikipedia links, i.e. links to other pages or categories contained in Wikipedia. It also includes Yago categories, which are numerous, for example, "Henry Carton de Wiart is a legal Actor", or "Henry Carton de Wiart is an Aristocrat".  \
 \
-\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
+\cf0 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
 
 \b \cf0 Semi-automated biography\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\qj\partightenfactor0
 
 \b0 \cf0 Inspired by the aforementioned reports produced by robot journalists, we aimed to see what a biography based on RDF triples would look like. In order to create this biography, we have synthesized the information contained in the RDF triples collected by Alex. For the sake of clarity, we present in Figure 3 a simplified version, based only on Wikidata and the different versions of DBpedia (EN, FR, NL). This means that this experimental biography does not contain the list of books that Carton de Wiart wrote of for which he collaborated; apart from that, the content was redundant. \
 \
 As you can see (Figure 3), all the text fits in less than 20 lines. The result is far from Carton de Wiart's biography displayed by the State Archives of Belgium, let alone the 8-pages Biographical note in the National Biography. This confirms our first constat: the overwhelming number of triples is not representative of an information which is actually quite poor. Most triples express the same elements and often only offer basic information such as birth and death dates. In order to analyse the quality of this biography made up of disparate elements, we have highlighted the most problematic excerpts. The text in yellow points up contradictions. Firstly, it is not easy to know how to write the first name Henry. The spelling changes according to the language. In Wikidata, the first name is written with a \'ab\'a0Y\'a0\'bb at the end, whereas DBpedia uses an \'ab\'a0I\'a0\'bb. Secondly, DBpedia NL expresses that Carton de Wiart was a member of the \'ab\'a0cdH\'a0\'bb party  - which is erroneous and strictly impossible, since this poltiical party has been created after his death -, contrary to most knowledge bases which correctly indicate that Wiart belonged to the Catholic party.\
 \
 Moreover, the information is not always as structured and clear as we could imagine. For example, much of the information in DBpedia or Yago is not fully explicit. Thus, the Dutch version of DBpedia signals that Carton de Wiart belongs to the Wikipedia list "List of Belgian ministers of Justice". However, this piece of information would not be fully exploitable by a robot, not to mention the fact that the years of his tenure as Minister of Justice are not even indicated. Furthermore, it has to be noted that the properties used by Yago or DBpedia are often poorly defined or not defined at all. It is therefore difficult to ascertain what the "successor" property (highlighted in green in Figure 3) covers. Successor of who? At which position? \
-\
--Ajouter quelques lignes sur l\'92exemple en violet (Rue de la Loi)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\qj\partightenfactor0
+\cf0 -Ajouter quelques lignes sur l\'92exemple en violet (Rue de la Loi)\
 \
 Finally, it appears that this text lacks essential biographical information, for example with regard to the studies of Carton de Wiart or his family. Did he have a wife, children, cousins, parents, siblings? This brings us to the next question: among this missing information, which ones could be easily added and which ones would be more difficult or impossible to translate into RDF?\
 \expnd0\expndtw0\kerning0
 \
-\pard\pardeftab720\sl360\slmult1\sa280\partightenfactor0
+\pard\pardeftab720\sl360\slmult1\sa280\qj\partightenfactor0
 
 \b\fs28 \cf0 Manual triplification\
-\pard\pardeftab720\sl360\slmult1\sa240\partightenfactor0
+\pard\pardeftab720\sl360\slmult1\sa240\qj\partightenfactor0
 
 \b0\fs24 \cf0 After this first exploration with the help of Alex-the-robot, we wanted to take a close look at the data contained in less structured resources. We try to do that by acting as if we were an archivist wishing to inject unstructured biographical information into the Linked Data cloud, in other words, we did a manual triplification.\
 Different types of resources have been used: a biographical note from the Biographie nationale de Belgique, an EAC-cpf xml file and an EAD file from the State Archives. During this triplification process, we consider each sentence, one after the other, and tried to extract and translate every single piece of information about Henry Carton into RDF triples (subject, property, object). For example, a single sentence like this one \'91\cf3 \cb4 \outl0\strokewidth0 \strokec3 Issu d'une famille de la noblesse catholique, Henry Carton de Wiart effectua ses humanit\'e9s au coll\'e8ge d'Alost puis au coll\'e8ge Saint-Michel \'e0 Bruxelles, avant d'entreprendre des \'e9tudes \'e0 l'Universit\'e9 libre de Bruxelles, o\'f9 il obtint en 1890 son doctorat en droit.\'92 has been translated in 7 different triples. \cf0 \cb1 \outl0\strokewidth0 \
-The whole triplification resulted in about 300 statements, containing far more complete and detailed information than the original RDF triples. During this process, we observed several aspects which can lead to loss of information, which in turn renders it difficult to deliver a clear and representative description of Henry Carton de Wiart. We have identified three types of limits, which are respectively related to the data, to the triple structure and to the vocabulary.\
-First, the data \
-For the data, of course, we are limited to the completeness of data we possess.\
-A more challenging question is the granularity:\
-- Besides practical aspects and available human resources, at what level of detail should we describe Henry and his life?\
-- Furthermore, if we are in an archival context, should we only use the biographical section of the EAD or also other levels of description? For instance, letters exchanged with other personalities could help to get a list of people connected to Henry. \
-But it raises another question: what should we do with all persons related to him? Indeed, we may also include professions and personal information for family, friends, etc. The question is: how far should we go to value this contextual information in the form of triples?\
+The whole triplification resulted in about 300 statements, containing far more complete and detailed information than the original RDF triples. During this process, we observed several aspects which can lead to loss of information, which in turn renders it difficult to deliver a clear and representative description of Henry Carton de Wiart. We have identified three types of challenges, which are respectively related to the data, to the triple structure and to the vocabulary. \
+Albeit the completeness of the data available can constitute a limit, a more challenging point is the granularity: besides practical aspects and available human resources, at what level of detail should Henry and his life be described? For example, in an archival context, should we only use the biographical section of the EAD or also take into consideration other levels of description? Thus, letters exchanged with other personalities could help to get a list of people connected to Henry. But it raises another question: what should we do with all persons related to him? Indeed, we may also include professions and personal information for friends or family. It can be difficult to determine how far it is relevant to value this contextual information in the form of triples. Will they represent a plus-value for users or information overload in the LOD cloud? \
 \pard\tx566\tx1133\pardeftab720\sl360\slmult1\partightenfactor0
 
-\b \cf0 2// The triple structure\
-	\
+\b \cf0 \
 
 \b0 The triple structure of RDF requires a different way of expressing things.\
 \

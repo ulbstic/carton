@@ -3,7 +3,7 @@
 {\colortbl;\red255\green255\blue255;\red26\green26\blue26;}
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
-\vieww12640\viewh13340\viewkind0
+\vieww11100\viewh13340\viewkind0
 \deftab720
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
 
@@ -45,47 +45,44 @@ While many studies about Linked Open Data adopt distant approaches based on meth
 \b Continuum\
 \pard\pardeftab720\sl360\slmult1\sa240\qj\partightenfactor0
 
-\b0 \cf0 Linked open data fits in a landscape of pre-existing resources, going from unstructured data to very structured data. At one end are situated less structured data, like the national biography of Henry Carton de Wiart, 8 sheets of well-written text, which have been digitised end published online in a PDF version [cf. r\'e9f\'e9rence : http://www.academieroyale.be/Academie/documents/FichierPDFBiographieNationaleTome2102.pdf, p. 86-94]. At the other end, stand the most structured data, which correspond to Linked Data, such as the Wikidata item attributed to Henry [{\field{\*\fldinst{HYPERLINK "https://www.wikidata.org/wiki/Q14990"}}{\fldrslt https://wikidata.org/wiki/Q14990}}], the Viaf entity [{\field{\*\fldinst{HYPERLINK "https://viaf.org/viaf/24623115/"}}{\fldrslt https://viaf.org/viaf/24623115/}}] or the french DBpedia page [http://fr.dbpedia.org/page/Henry_Carton_de_Wiart]. In between, are established more isolated structured data like RDF triples from several archives and libraries [e.g. Data.bnf.fr : {\field{\*\fldinst{HYPERLINK "http://data.bnf.fr/12062835/henry_carton_de_wiart/"}}{\fldrslt http://data.bnf.fr/12062835/henry_carton_de_wiart/}}], archival descriptions in XML [e.g. the EAC-cpf file from the State Archives of Belgium: the https://search.arch.be/eac/xml/eac-BE-A0500_007556_FRE.xml] or Wikipedia pages [e.g. the english version: {\field{\*\fldinst{HYPERLINK "https://en.wikipedia.org/wiki/Henry_Carton_de_Wiart"}}{\fldrslt https://en.wikipedia.org/wiki/Henry_Carton_de_Wiart}}]. \
+\b0 \cf0 Linked open data fits in a landscape of pre-existing resources, going from unstructured data to very structured data. At one end are situated less structured data, like the national biography of Henry Carton de Wiart, 8 sheets of well-written text, which have been digitised end published online in a PDF version [cf. r\'e9f\'e9rence : http://www.academieroyale.be/Academie/documents/FichierPDFBiographieNationaleTome2102.pdf, p. 86-94]. At the other end, stand the most structured data, which correspond to Linked Data, such as the Wikidata item attributed to Henry [{\field{\*\fldinst{HYPERLINK "https://www.wikidata.org/wiki/Q14990"}}{\fldrslt https://wikidata.org/wiki/Q14990}}], the Viaf entity [{\field{\*\fldinst{HYPERLINK "https://viaf.org/viaf/24623115/"}}{\fldrslt https://viaf.org/viaf/24623115/}}] or the french DBpedia page [http://fr.dbpedia.org/page/Henry_Carton_de_Wiart]. In between, are established more isolated structured data like RDF triples from archives or libraries repositories [e.g. Data.bnf.fr : {\field{\*\fldinst{HYPERLINK "http://data.bnf.fr/12062835/henry_carton_de_wiart/"}}{\fldrslt http://data.bnf.fr/12062835/henry_carton_de_wiart/}}], archival descriptions in XML [e.g. the EAC-cpf file from the State Archives of Belgium: the https://search.arch.be/eac/xml/eac-BE-A0500_007556_FRE.xml] or Wikipedia pages [e.g. the english version: {\field{\*\fldinst{HYPERLINK "https://en.wikipedia.org/wiki/Henry_Carton_de_Wiart"}}{\fldrslt https://en.wikipedia.org/wiki/Henry_Carton_de_Wiart}}]. \
 While the most structured resources display facts (such as a birth date or death date) very clearly, in a machine-readable format, we can wonder if they provide as many details as a more classical format type, such as the national biography: do they mention its Hennuy\'e8res origins, his correspondence with an apostolic vicar living in Brazzaville, or that day in August 1914 when the Belgian king asked him to lead an extraordinary mission to the United States? Through this case study, we aim to test and confront these various sources and to observe to what extent they are consistent and complementary. \
 \pard\pardeftab720\sl360\slmult1\sa240\partightenfactor0
 \cf0 \
 \pard\pardeftab720\sl360\slmult1\sa240\partightenfactor0
 
-\b \cf0 A dive into the LOD cloud\
+\b \cf0 Diving into the LOD cloud\
 \pard\pardeftab720\sl360\slmult1\sa240\qj\partightenfactor0
 
 \b0 \cf0 Alex-the-robot, the main character of our case-study, can be seen as a fictional cousin of these famous "robot journalists". If Alex existed, it would share with them this ability to produce texts which are not written by a human, but by an algorithm. Where a robot journalist produces, for example, weather reports, election results or financial reports, Alex would write biographic texts based on information extracted from the Linked Open Data cloud. It will proceed like a historian who collects pieces of information from various sources, in order to gradually be able to write the portrait of an individual. The only difference is that instead of skimming several resources, Alex would perform queries on the web and then interpret the results, as long as they are in a structured format, such as XML or JSON. Indeed, \kerning1\expnd0\expndtw0 like all robots, he does not understand natural language. However, it is able to write basic sentences based on structured data like RDF triples. It means therefore that Alex is able to write, for example, that someone was born that year, in that location, and practiced this or that job.\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\qj\partightenfactor0
 \cf0 His personal skills having been reviewed, Alex is now ready to begin his dive into the Linked Open Data cloud. His mission is to collect as much triples as possible about our man, Henry Carton de Wiart. Its starting point will be DBpedia. Indeed, this Knowledge Basis is often considered as the focal point of the Linked Open Data cloud, towards which converge links from many databases. Thus, we will ask Alex to go to the Carton de Wiart's DBpedia page, to collect RDF data from this page and then to follow all links to external databases.\
 \
+Figure 1 shows all the links between Knowledge Bases. As aforementioned, the entry point is DBpedia. All the paths explored by Alex are visible. From DBpedia, Alex goes to various versions DBpedia in other languages, then to Yago, to Freebase (which no longer exists) and finally to Wikidata. In our figure, the size of each node is proportional to the number of outgoing links to other databases. The size of Wikidata's bubble means it contains a lot of external links: to VIAF, BNF or the Library of Congress authority ID. Whenever our robot comes in a knowledge base, it collects all the information it finds : Henry Carton de Wiart is a politician; he was born in Brussels; he wrote the novel 'La Cit\'e9 ardente'.\
 \
-to collect the RDF information from it, and follow all the links to other databases.\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
-\cf0 Graph of links between Knowledge bases (chart)\
-And here is the path he could take from DBpedia. In this chart, the size of each bubble, each node, is proportional to the number of outgoing links to other databases. Here we have DBpedia, the entry point. From there, Alex goes to other versions of DBpedia in other languages, then to Yago, then to Freebase (which no longer exists), then to Wikidata. Wikidata is a big bubble because it contains a lot of links. To VIAF, BNF id or the Library of Congress autority ID. Whenever our robot comes in a knowledge base, it collects all the information it finds. Henry Carton de Wiart is a politician. He was born in Brussels. He wrote the novel La Cit\'c8 ardente. etc.\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
 
-\b \cf0 Open refine slide
+\b \cf0 RDF triples harvesting
 \b0 \
-In performing the operation, we harvested more than 22,000 triples on Carton de Wiart. This number may seem huge, but the vast majority of these triples are useless. RDF can be a verbose format, sometimes it takes a lot of triples to express something pretty simple. If we eliminate useless triples, we still have a little more than 1500, which use about 240 different properties.\
+During this process, Alex harvested more than 22,000 RDF triples about Carton de Wiart. While this amount can seem huge, it has to be noted that the vast majority of these triples are meaningless. RDF can be a verbose format, requiring something a lot of different triples to express something quite basic. Thus, once the useless triples have being eliminated, there are about 1,500 triples left, which use some 240 distinct properties. \
+\
+However, these properties are often redundant. In order to get a global view of their repartition, they have been gathered in eleven broad categories: affiliations; appellations; category, dates; descriptions; identifiers; locations; miscellaneous; professions; relations; works. Figure 2 shows the proportion of triples in each of these categories. Triples have been placed in their respective category according to the property used in the triple. For instance, the property \'92
+\i http://www.w3.org/2000/01/rdf-schema#label
+\i0 ' correspond to the "appellation" category, which encompasses all the different labels under which Henry Carton de Wiart is known. There are many, especially in VIAF, which records the different labels used by libraries: Carton de Wiart\uc0\u8207 , Henry\u8207 ; Carton de Wiart, Henry,\u8207   Comte, 1869-1951\u8207 ; Carton de Wiart, Henry\u8207 \u8206   (1869-1951). The "category" category is the largest because it includes Wikipedia links, i.e. links to other pages or categories contained in Wikipedia. It also includes Yago categories, which are numerous, for example, "Henry Carton de Wiart is a legal Actor", or "Henry Carton de Wiart is an Aristocrat".  \
 \
 
-\b Broad categories
-\b0 \
-But these properties are often redundant. In order to get a more global view, we have gathered the properties in eleven broad categories. The "appellation" category, for example, uses different labels under which Henry Carton de Wiart is known. There are many because in Viaf, each library uses a slightly different label.\
-The "category" category is the largest because it includes Wikipedia links - links to other pages or categories contained in Wikipedia. But also the categories in Yago, which are numerous, for example "Henry Carton of Wiart is a legalActor", or "" Henry Carton of Wiart is an Aristocrat "I will not describe the other categories, all this is not very important, I mention it just for the record.\
+\b From RDF to a semi-automated biography\
 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\sl360\slmult1\partightenfactor0
 
-\b Robot Portrait 
-\b0 \
-The important thing is the result. Sorry for this blob of text on the screen, but it's essential to show that the result fit on a single slide. We are far from Carton de Wiart's description in the general archives of the kingdom, and even far enough from his Wikipedia page. Let alone the 8-pages Biographical note in the National Biography.\
-Because if we have a lot of triples, they often say the same thing and often only offer basic information. For the sake of simplicity, I give you the description based only on Wikidata and different versions of DBpedia. The other databases offer about the same information, plus the list of books that Wiart has written or those he collaborated with.\
-In yellow, we see some contradictions. in the first place, it is not easy to know how to write Henry. The spelling changes according to the language. In Wikidata, it is with a Y at the end, in DBpedia, with an I. Another example of contradiction: most knowledge bases tell us that Wiart belonged to the Catholic party, which is right. But DBpedia NL tells us that it was member of the modern party cdH, which is impossible. \
+\b0 \cf0 Inspired by the aforementioned reports, produced by robot journalists, we aimed to see what a biography based on RDF triples would look like. In order to create this biography, we have synthesized the information contained in the RDF triples collected by Alex. For sake of clarity, we present in Figure 3 a simplified version, based only on Wikidata and the different versions of DBpedia (EN, FR, NL). This means that this experimental biography does not contain the list of books that Carton de Wiart wrote of for which he collaborated; apart from that, the content was redundant. \
+\
+As you can see (Figure 3), all the text fits in less than 20 lines. The result is far from Carton de Wiart's biography displayed by the State Archives of Belgium, let alone the 8-pages Biographical note in the National Biography. This confirms our first constat: the overwhelming number of triples is not representative of an information which is actually quite poor. Most triples express the same elements and often only offer basic information such as birth and death dates. In order to analyse the quality of this biography made up of disparate elements, we have highlighted the most problematic excerpts. The text in yellow points up contradictions. Firstly, it is not easy to know how to write the first name Henry. The spelling changes according to the language. In Wikidata, the first name is written with a \'ab\'a0Y\'a0\'bb at the end, whereas DBpedia uses an \'ab\'a0I\'a0\'bb. Secondly, DBpedia NL expresses that Carton de Wiart was member of the \'ab\'a0cdH\'a0\'bb party  - which is erroneous and strictly impossible, since this poltiical party has been created after his death -, contrary to most knowledge bases which indicate correctly that Wiart belonged to the Catholic party.\
+\
 We also note that much of the information in DBpedia or Yago is not really structured. The dutch version of DBpedia tells us that Carton de Wiart is in the Wikipedia list "Lit of belgian minister of justice". But this information would not be really exploitable by a robot. And anyway we do not even know when he was minister of justice. We also note that the properties used by Yago or DBpedia are often poorly defined or not defined at all. It is difficult to know what is the "successor" property, for example. Successor of what? On what position? It's not very clear. \
 Finally, notice that it lacks essential biographical information, for example concerning the studies of Carton de Wiart or his family. Does he have a wife, children, cousins, parents, siblings ? Which brings us to the next question: among this missing information, which could be added easily and which would be difficult or impossible to translate into RDF. I give Anne the floor again for this part.\
-\pard\pardeftab720\sl360\slmult1\sa240\partightenfactor0
-\cf0 \expnd0\expndtw0\kerning0
+\expnd0\expndtw0\kerning0
 \
 \pard\pardeftab720\sl360\slmult1\sa280\partightenfactor0
 
@@ -111,8 +108,9 @@ We have identified three types of limits, which are respectively related to the 
 \b\fs28 \cf0 \kerning1\expnd0\expndtw0 Think about
 \b0\fs24 \expnd0\expndtw0\kerning0
 \
+\pard\pardeftab720\sl360\slmult1\sa240\partightenfactor0
 
-\b 1// The Data 
+\b \cf0 1// The Data 
 \b0 \
 For the data, of course, we are limited to the completeness of data we possess.\
 A more challenging question is the granularity:\

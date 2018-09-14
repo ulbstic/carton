@@ -1,6 +1,6 @@
 library(readxl)
 library(tidyverse)
-carton_categories <- read_excel("C:/Users/ettor/Desktop/carton_categories.xlsx", 
+carton_categories <- read_excel("carton_categories.xlsx", 
                                 col_names = FALSE)
 View(carton_categories)
 

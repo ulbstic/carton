@@ -1,4 +1,4 @@
-%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
+%% LyX 2.3.0 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
 \documentclass[11pt]{article}
 \usepackage{amsmath}
@@ -8,6 +8,7 @@
 \usepackage{geometry}
 \geometry{verbose,tmargin=2.54cm,bmargin=2.54cm,lmargin=3.5cm,rmargin=2.54cm}
 \setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{3}
 \usepackage{graphicx}
 \usepackage{setspace}
 \onehalfspacing
@@ -70,8 +71,8 @@
 
 \begin{document}
 
-\title{Close-reading of Linked Data: a practical case study on the quality
-of online authority files}
+\title{\textsc{Close-reading of Linked Data: a practical case study on the
+quality of online authority files}}
 
 \author{Ettore Rizza, Anne Chardonnens, Seth van Hooland}
 \maketitle
@@ -85,14 +86,14 @@ things; 2° Use~HTTP~URIs so that these things can be looked up;
 3° Provide useful information about what a name identifies when it's
 looked up, using open standards such as~RDF,~SPARQL, etc; 4° Refer
 to other things using their~HTTP~URI-based names when publishing
-data on the Web.} to share and connect their collection descriptions. In the archival
-field, initiatives emerge to exploit data contained in archival descriptions
+data on the Web.} to share and connect their collection metadata. In the archival field,
+initiatives emerge to exploit data contained in archival descriptions
 and adapt encoding standards to the semantic web\footnote{\textsf{\textsc{K. F. Gracy}}, ``Archival description and linked
 data: a preliminary study of opportunities and implementation challenges'',
 \emph{Archival Science}, 15(3), 2015, pp. 239–294.}. In this context, online authority files can be used to enrich metadata.
 However, relying on a decentralized network of knowledge bases such
 as Wikidata\footnote{\textsf{\textsc{D. Vrandečić, M. Krötzsch}}, ``Wikidata: a free collaborative
-knowledgebase'', \emph{Communications of the ACM}, 57(10), 2014,
+knowledge base'', \emph{Communications of the ACM}, 57(10), 2014,
 pp. 78–85.}, DBpedia\footnote{\textsf{\textsc{J. Lehmann, R. Isele, M. Jakob, A. Jentzsch, D. Kontokostas,
 P. N. Mendes,\ldots{} others}}, ``DBpedia–a large-scale, multilingual
 knowledge base extracted from Wikipedia'', \emph{Semantic Web}, 6(2),
@@ -101,8 +102,9 @@ Authority File) – http://viaf.org'', \emph{Technical Services Quarterly},
 28(2), 2011, pp. 255–256, \href{https://doi.org/10.1080/07317131.2011.546304}{https://doi.org/10.1080/07317131.2011.546304}} has its own difficulties. This paper aims to offer a critical view
 of these linked authority files by adopting a \emph{close-reading}
 approach. Through a practical case study, we intend to identify and
-illustrate the possibilities and limits of RDF triples compared to
-institutions' less structured metadata.~
+illustrate the possibilities and limits of RDF\footnote{Resource Description Framework. \textsc{D. Brickley, R. V. Guha, B.
+McBride}, ``RDF vocabulary description language 1.0: RDF Schema.
+W3C Recommendation'', 2004, URL:\href{http://www.W3.Org/Tr/2004/Rec-Rdf-Schema-20040210}{http://www.W3.Org/Tr/2004/Rec-Rdf-Schema-20040210}. } triples compared to institutions' less structured metadata.~
 
 Our paper is an invitation to travel in an unexpected way: diving
 through the Linked Open Data cloud\footnote{The LOD Cloud Graph, maintained since 2007, is an attempt to map the
@@ -118,7 +120,7 @@ Walloon family, Carton de Wiart has been minister several times, Prime
 Minister, president of many councils and organizations, and a lawyer
 and a writer as well. The Belgian city Liège owes one of its nicknames
 to one of his books, \emph{La Cité ardente}\footnote{\textsf{\textsc{H. Carton de Wiart}}, \emph{La Cité ardente, avec
-une préface de M. Henry Bordeaux}, Paris, Georges Crès \& Cie, 1904. }. Moreover, he has been honored by several awards and was in contact
+une préface de M. Henry Bordeaux}, Paris, 1904. }. Moreover, he has been honored by several awards and was in contact
 with many well-known personalities, from the French poet Verlaine
 to the President of America Woodrow Wilson. His life contains therefore
 enough facets to act as a case study to compare how Linked Open Data
@@ -131,8 +133,8 @@ They tend to analyze the data quality of datasets only through the
 prism of quantitative and comparative analysis\footnote{\textsf{\textsc{A. Zaveri, A. Rula, A. Maurino, R. Pietrobon, J. Lehmann,
 S. Auer}}, ``Quality assessment for linked data: A survey'', in
 \emph{The Semantic Web}, 7(1), 2012, pp. 63–93.}. In this paper, we opt for a close-reading approach focusing on a
-single individuality, in order to analysis how the triple structure
-succeeds in capturing biographical data, compared with more traditional
+single individuality, in order to analyze how the triple structure
+deals with historical/biographical data compared with traditional
 authority files.
 
 \section{Continuum}
@@ -142,31 +144,31 @@ practices and methods, from the traditional paper-based narrative
 to very structured data published as RDF triples in knowledge graphs\footnote{This term, coined and popularized by Google in 2012, refers to knowledge
 bases structured as RDF graphs.}. At one end are unstructured data, like the national biography of
 Henry Carton de Wiart, an eight pages well-written text digitized
-and published online in a PDF version\footnote{\textsf{\textsc{L’ACADÉMIE ROYALE DES SCIENCES, DES LETTRES ET DES
-BEAUX-ARTS DE BELGIQUE}}, \emph{Biographie Nationale}, Tome 44, Dernier
-Supplément, tome XVI, Fasc. 1, Artoisenet-Eracle, 1985, Bruxelles,
-Retrieved from \href{http://www.academieroyale.be/Academie/documents/FichierPDFBiographieNationaleTome2102.pdf }{http://www.academieroyale.be/Academie/documents/FichierPDFBiographieNationaleTome2102.pdf }.}. At the other end, stand the most structured data, which correspond
+and published online in a PDF version\footnote{\textsf{\textsc{Académie royale des Sciences, des Lettres et des Beaux-Arts
+de Belgique}}, \emph{Biographie Nationale}, Tome 44, Dernier Supplément,
+tome XVI, Fasc. 1, Artoisenet-Eracle, 1985, Bruxelles, Retrieved from
+\href{http://www.academieroyale.be/Academie/documents/FichierPDFBiographieNationaleTome2102.pdf }{http://www.academieroyale.be/Academie/documents/FichierPDFBiographieNationaleTome2102.pdf }.}. At the other end stand the most structured data, which corresponds
 to Linked Data, such as the Wikidata resource for Henry Carton de
 Wiart\footnote{\href{https://wikidata.org/wiki/Q14990}{https://wikidata.org/wiki/Q14990}
-(accessed 14 September 2018).}, its Viaf entity\footnote{\href{https://viaf.org/viaf/24623115}{https://viaf.org/viaf/24623115}(accessed
-14 September 2018).} or its French DBpedia page\footnote{\href{http://fr.dbpedia.org/page/Henry_Carton_de_Wiart}{http://fr.dbpedia.org/page/Henry\_{}Carton\_{}de\_{}Wiart}(accessed
+(accessed 14 September 2018).}, its Viaf authority file\footnote{\href{https://viaf.org/viaf/24623115}{https://viaf.org/viaf/24623115}(accessed
+14 September 2018).} or its French DBpedia page\footnote{\href{http://fr.dbpedia.org/page/Henry_Carton_de_Wiart}{http://fr.dbpedia.org/page/Henry\_Carton\_de\_Wiart}(accessed
 14 September 2018).}. In between are established more isolated structured data like RDF
-triples from archives or libraries repositories\footnote{e.g. Data.bnf.fr: \href{http://data.bnf.fr/12062835/henry_carton_de_wiart/}{http://data.bnf.fr/12062835/henry\_{}carton\_{}de\_{}wiart/}
-(accessed 14 September 2018).}, archival descriptions in XML\footnote{e.g. the EAC-CPF file from the State Archives of Belgium: \href{https://search.arch.be/eac/xml/eac-BE-A0500_007556_FRE.xml}{https://search.arch.be/eac/xml/eac-BE-A0500\_{}007556\_{}FRE.xml}
-(accessed 14 September 2018).} or Wikipedia pages\footnote{e.g. the English version: \href{https://en.wikipedia.org/wiki/Henry_Carton_de_Wiart}{https://en.wikipedia.org/wiki/Henry\_{}Carton\_{}de\_{}Wiart}
+triples from archives or libraries repositories\footnote{e.g. Data.bnf.fr: \href{http://data.bnf.fr/12062835/henry_carton_de_wiart/}{http://data.bnf.fr/12062835/henry\_carton\_de\_wiart/}
+(accessed 14 September 2018).}, archival descriptions in XML\footnote{e.g. the EAC-CPF file from the State Archives of Belgium: \href{https://search.arch.be/eac/xml/eac-BE-A0500_007556_FRE.xml}{https://search.arch.be/eac/xml/eac-BE-A0500\_007556\_FRE.xml}
+(accessed 14 September 2018).} or Wikipedia pages\footnote{e.g. the English version: \href{https://en.wikipedia.org/wiki/Henry_Carton_de_Wiart}{https://en.wikipedia.org/wiki/Henry\_Carton\_de\_Wiart}
 (accessed 14 September 2018).}.
 
 While the most structured resources display facts (such as a birth
 date or death date) very clearly, in a machine-readable format, we
 can wonder if they provide as many details as a more classical format
-type, such as the national biography: do they mention his origins
+type, such as the national biography. Do they mention his origins
 from Hainaut, his correspondence with an apostolic vicar living in
 Brazzaville, or that day in August 1914 when the Belgian king asked
 him to lead an extraordinary mission to the United States? These questions
 can be mapped to the central premise of Lev Manovich's book \emph{The
-Language of New Media}, which stressed the tension between traditional
+Language of New Media}, which stresses the tension between traditional
 narratives and databases\footnote{\textsf{\textsc{L. Manovich, R. F. Malina, S. Cubitt}},\emph{ The
-Language of new media}, Cambridge, MIT press, 2001.}. Through this case study, we aim to extend this thinking and confront
+Language of new media}, Cambridge, 2001.}. Through this case study, we aim to extend this thinking and confront
 various forms of structured sources and to observe to what extent
 they are consistent and complementary.
 
@@ -192,14 +194,15 @@ it does not understand natural language, it is able to write basic
 sentences, for example that someone was born that year, in that location,
 and practiced this or that activity.
 
+\begin{singlespace}
 As a reminder, the principles of Linked Data advocate to use URIs
 (Uniform Resource Identifiers) as names for things and to use standards
-such as RDF (Resource Description Framework). For example, the fact
-that ``the artwork \emph{Puppy} held by the Guggenheim Museum was
-made by Jeff Koons'' can be expressed in RDF as follow (using the
-N-triples notation)\footnote{Example borrowed from \textsf{\textsc{S. Van Hooland, R. Verborgh}},
+such as RDF. For example, the sentence ``the artwork \emph{Puppy}
+held by the Guggenheim Museum was made by Jeff Koons'' can be expressed
+in RDF as follows (using the N-triples notation)\footnote{Example borrowed from \textsf{\textsc{S. Van Hooland, R. Verborgh}},
 \emph{Linked Data for Libraries, Archives and Museums: How to clean,
-link and publish your metadata}, London, Facet Publishing, 2014.}: 
+link and publish your metadata}, London, 2014.}: 
+\end{singlespace}
 \begin{singlespace}
 \begin{center}
 \textsf{<\href{http://www.guggenheim.org/new-york/collections/collection-online/artwork/48}{http://www.guggenheim.org/new-york/collections/collection-online/artwork/48}>}
@@ -221,9 +224,9 @@ point of the Linked Open Data cloud, since many datasets of the LOD
 cloud are linked to it\footnote{\textsf{\textsc{S. Auer, C. Bizer, G. Kobilarov, J. Lehmann, R. Cyganiak,
 Z. Ives}}, ``Dbpedia: A nucleus for a web of open data'', In \emph{The
 Semantic Web}, 2007, pp. 722–735.}. Thus, we will ask Alex to go to the Carton de Wiart's English DBpedia
-page\footnote{\href{http://dbpedia.org/page/Henri_Carton_de_Wiart}{http://dbpedia.org/page/Henri\_{}Carton\_{}de\_{}Wiart}
+page\footnote{\href{http://dbpedia.org/page/Henri_Carton_de_Wiart}{http://dbpedia.org/page/Henri\_Carton\_de\_Wiart}
 (accessed 14 September 2018).}, to collect RDF data from this page and then to follow all the links
-to external databases using, for instance, the \textsf{owl:sameAs}\footnote{\href{https://www.w3.org/TR/owl-ref/\#sameAs-def}{https://www.w3.org/TR/owl-ref/\#{}sameAs-def}
+to external databases using, for instance, the \textsf{owl:sameAs}\footnote{\href{https://www.w3.org/TR/owl-ref/\#sameAs-def}{https://www.w3.org/TR/owl-ref/\#sameAs-def}
 (accessed 14 September 2018).} relations.
 
 Figure~1 shows all the links between the knowledge bases used in
@@ -240,13 +243,14 @@ Carton de Wiart is a politician; he was born in Brussels; he wrote
 the novel \emph{La Cité ardente} and so on.
 
 \begin{figure}
-\includegraphics[scale=0.35]{\string"C:/Users/ettor/Documents/GitHub/carton/article Dariah/version_finale/figures/figure1\string".pdf}
+\includegraphics[scale=0.35]{../figures/figure1.pdf}
 
 \caption{The part of the Linked Open Data graph traversed during the experiment.
 The size of each node and label is proportional to the number of outgoing
 links in the dataset.}
 
 \end{figure}
+
 
 \section{RDF Triples Harvesting}
 
@@ -258,33 +262,33 @@ a lot of triples to express something quite basic\footnote{Especially when insti
 metadata about their triples, using RDF reification.}. Thus, once the useless triples eliminated, there are about 1,500
 triples left, which use some 240 distinct properties.
 
-However, each database using its own schema, these properties are
-often redundant. To encode a person's date of birth, for example,
+However, these properties are often redundant, as each database uses
+their own schemas. To encode a person's date of birth, for example,
 YAGO uses the property \textsf{<\href{http://YAGO-knowledge.org/resource/infobox/en/birthdate}{http://YAGO-knowledge.org/resource/infobox/en/birthdate}>},
 while DBpedia uses \textsf{<\href{http://dbpedia.org/ontology/birthDate}{http://dbpedia.org/ontology/birthDate}>}.
 In order to facilitate the analysis, we have roughly classified the
 various properties into eleven empirical classes: affiliations, appellations,
-category, dates, descriptions, identifiers, locations, miscellaneous,
-professions, relations, works. Figure~2 shows the proportion of triples
-in each of these classes.
+category, dates, descriptions, identifiers, locations, professions,
+relations, works and miscellaneous. Figure~2 shows the proportion
+of triples in each of these classes.
 
 \begin{figure}
-\includegraphics[scale=0.35]{\string"C:/Users/ettor/Documents/GitHub/carton/article Dariah/version_finale/figures/figure2\string".pdf}
+\includegraphics[scale=0.35]{../figures/figure2.pdf}
 
 \caption{Distribution of properties manually divided into eleven classes.}
 
 \end{figure}
 
 Triples have been placed in their respective category according to
-the property used in the triple. For instance, the property \textsf{<\href{http://www.w3.org/2000/01/rdf-schema\%5C\#label}{http://www.w3.org/2000/01/rdf-schema\textbackslash{}\#{}label}>}
-correspond to the ``appellation'' category, which encompasses all
-the different labels under which Henry Carton de Wiart is known. There
+the property used. For instance, the property \textsf{<\href{http://www.w3.org/2000/01/rdf-schema\%5C\#label}{http://www.w3.org/2000/01/rdf-schema\textbackslash{}\#label}>}
+corresponds to the ``appellation'' category, which encompasses all
+the different labels used to refer to Henry Carton de Wiart. There
 are many, especially in VIAF, which records the different labels used
-by libraries: Carton de Wiart‏, Henry‏ ; Carton de Wiart, Henry,‏
-Comte, 1869-1951‏ ; Carton de Wiart, Henry‏‎ (1869-1951). The ``category''
+by libraries: Carton de Wiart‏, Henry‏; Carton de Wiart, Henry,‏ Comte,
+1869-1951‏; Carton de Wiart, Henry‏‎ (1869-1951)... The ``category''
 class is the largest because it includes the (numerous) Wikipedia
-and YAGO categories —for example \textsf{<\href{http://YAGO-knowledge.org/resource/wikicat_Walloon_people}{http://YAGO-knowledge.org/resource/wikicat\_{}Walloon\_{}people}>
-or <\href{http://dbpedia.org/resource/Category:Members_of_the_Brussels_Guild_of_Saint_Luke}{http://dbpedia.org/resource/Category:Members\_{}of\_{}the\_{}Brussels\_{}Guild\_{}of\_{}Saint\_{}Luke}>}.
+and YAGO categories —for example \textsf{<\href{http://YAGO-knowledge.org/resource/wikicat_Walloon_people}{http://YAGO-knowledge.org/resource/wikicat\_Walloon\_people}>
+or <\href{http://dbpedia.org/resource/Category:Members_of_the_Brussels_Guild_of_Saint_Luke}{http://dbpedia.org/resource/Category:Members\_of\_the\_Brussels\_Guild\_of\_Saint\_Luke}>}.
 
 \section{Semi-Automated Biography}
 
@@ -299,28 +303,28 @@ Carton de Wiart wrote or collaborated on.
 
 \begin{figure}
 
-\includegraphics[scale=0.3]{\string"C:/Users/ettor/Documents/GitHub/carton/article Dariah/version_finale/figures/figure3\string".png}\caption{Here is what an ``automated'' portrait of Henry Carton de Wiart
+\includegraphics[scale=0.3]{../figures/figure3.png}\caption{Here is what an ``automated'' portrait of Henry Carton de Wiart
 might look like based on information from the LOD Cloud.}
 \end{figure}
 
-As you can see in Figure~3, all the text fits in less than 20 lines.
-The result is far from Carton de Wiart's biography displayed by the
-State Archives of Belgium, let alone the 8-pages biographical note
-in the National Biography. This confirms our first hypothesis: the
-overwhelming quantity of triples are often redundant or useless. Most
-of them express the same elements and often only offer basic information
-such as birth and death dates. We have highlighted the most problematic
-excerpts. The text in yellow points up contradictions. Firstly, it
-is not easy to know how to write Henry. The spelling changes according
-to the language. In Wikidata, the ``given name'' property is ``Henry'',
-whereas DBpedia uses ``Henri''. Secondly, the Dutch version of DBpedia\footnote{\href{http://nl.dbpedia.org/page/Henri_Carton_de_Wiart}{http://nl.dbpedia.org/page/Henri\_{}Carton\_{}de\_{}Wiart}
+As shown in Figure~3, all the text fits in less than 20 lines. The
+result is far from Carton de Wiart's biography from the State Archives
+of Belgium, let alone the 8-pages biographical note in the National
+Biography. This confirms our first hypothesis: the overwhelming quantity
+of triples are often redundant or useless. Most of them express the
+same elements and often only offer basic information such as birth
+and death dates. We have highlighted the most problematic excerpts.
+The text in yellow points up contradictions. Firstly, it is not easy
+to know how to write Henry. The spelling changes according to the
+language. In Wikidata, the ``given name'' property is ``Henry'',
+whereas DBpedia uses ``Henri''. Secondly, the Dutch version of DBpedia\footnote{\href{http://nl.dbpedia.org/page/Henri_Carton_de_Wiart}{http://nl.dbpedia.org/page/Henri\_Carton\_de\_Wiart}
 (accessed 14 September 2018).} wrongly asserts that Carton de Wiart was a member of the ``cdH''
 —a political party created in 2002, after his death. But other knowledge
 bases correctly indicate that Wiart belonged to the Catholic party.
 
 Moreover, the information is not always as structured and clear as
 we could expect. For example, much of the information in DBpedia or
-YAGO is not fully explicit. Thus, the Dutch version of DBpedia mentions
+YAGO is not fully explicit. The Dutch version of DBpedia mentions
 that Carton de Wiart belongs to the Wikipedia's ``List of Belgian
 ministers of Justice''. However, this piece of information would
 not be fully exploitable by a machine, not to mention the fact that
@@ -340,13 +344,13 @@ cousins, parents, siblings? This brings us to the next question: among
 this missing information, which ones could be easily added and which
 ones would be more difficult or impossible to translate into RDF?
 
-\section{Manual Triplication}
+\section{Manual ``Triplification''}
 
 After this first exploration with the help of Alex-the-robot, we wanted
 to take a close look at the data contained in less structured resources.
-We try to do that by acting as if we were an archivist wishing to
+We tried to do that by acting as if we were an archivist wishing to
 inject unstructured biographical information into the Linked Data
-cloud, in other words, what the options would be to ``manually''
+cloud. In other words, what the options would be to ``manually''
 triplify extra information.
 
 Different types of resources have been used: a biographical note from
@@ -364,7 +368,7 @@ en droit'' need at least seven different triples.
 The whole triplification resulted in about 300 statements, containing
 far more complete and detailed information than the Linked Data triples.
 During this process, we observed several aspects which can lead to
-the loss of information, which in turn renders it difficult to deliver
+the loss of information, which in turn makes it difficult to deliver
 a clear and representative description of Henry Carton de Wiart. We
 have identified three types of challenges, which are respectively
 related to the data, to the triple structure and to the vocabulary. 
@@ -384,15 +388,15 @@ like ``Henry had four brothers'', its full description sometimes
 has to be inferred from other statements in the RDF language (for
 example counting the number of triples that use a property like \textsf{brotherOf}).
 \item Several RDF vocabularies can be used to specify the relationship between
-persons. Again, we have noticed some limits related to granularity.
-Thus, in the family context, depending on what vocabulary we used,
-we were able to specify that someone was an uncle, or merely describe
-the fact that he was a relative. In this case, we would lose details
-and have uncle and cousin described by the same vague property. 
-\item For social relationship, the vocabulary \textsf{\textsc{BIO:relationship}}\footnote{\href{https://lov.linkeddata.es/dataset/lov/vocabs/bio}{https://lov.linkeddata.es/dataset/lov/vocabs/bio}
+persons. Again, we noticed some limits related to granularity. Thus,
+in the family context, depending on what vocabulary we used, we were
+able to specify that someone was an uncle, or merely describe the
+fact that he was a relative. In this case, we would lose details and
+have uncle and cousin described by the same vague property. 
+\item For social relationship, the vocabulary BIO\footnote{\href{https://lov.linkeddata.es/dataset/lov/vocabs/bio}{https://lov.linkeddata.es/dataset/lov/vocabs/bio}
 (accessed 14 September 2018).} allows to qualify ``acquaintance of'', ``friend of'', ``a close
 friend of'', ``has met'', etc. Although this representation is
-useful, sometimes it appears quite difficult to evaluate the specific
+useful, sometimes it seems quite difficult to evaluate the specific
 nature of a relationship between two dead people... 
 \item During the triplification process, most of the data has been translated
 in RDF triples without issues. In a few cases, we lacked vocabulary

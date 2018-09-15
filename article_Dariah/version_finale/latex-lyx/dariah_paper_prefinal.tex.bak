@@ -248,7 +248,7 @@ links in the dataset.}
 
 \section{RDF Triples Harvesting}
 
-During this process, ``Alex'' (i.e.: the authors) harvested more
+During this process, ``Alex'' (i.e. : the authors) harvested more
 than 22,000 RDF triples about Carton de Wiart. While this amount can
 seem huge, it must be noted that the clear majority of these triples
 are meaningless. RDF can be a very verbose format, requiring sometimes
@@ -356,7 +356,7 @@ sentence like ``Issu d'une famille de la noblesse catholique, Henry
 Carton de Wiart effectua ses humanités au collège d'Alost puis au
 collège Saint-Michel à Bruxelles, avant d'entreprendre des études
 à l'Université libre de Bruxelles, où il obtint en 1890 son doctorat
-en droit'' requires at least seven different triples.
+en droit'' need at least seven different triples.
 
 The whole triplification resulted in about 300 statements, containing
 far more complete and detailed information than the Linked Data triples.
@@ -395,7 +395,7 @@ nature of a relationship between two dead people...
 in RDF triples without issues. In a few cases, we lacked vocabulary
 terms to express more atypical statements, such as details about Henry's
 personality, or mentions about his activism in the context of social
-struggles. Obviously, it raises the question of the long tail: to
+struggles. Obviously, it raises the question of the long tail : to
 what extent should we create new properties for each very specific
 case?
 \end{itemize}
@@ -408,7 +408,7 @@ is quite poor. We have also seen that many other biographical elements
 can be added as RDF triples, and that there is often a controlled
 vocabulary that can express them.
 
-However, creating our own RDF files requires time and skills. So, another
+But creating our own RDF files requires time and skills. So, another
 approach might be to automatically feed Wikidata, which can be edited
 by users unlike DBpedia. In the coming months, we will explore these
 tracks. We will also try to generalize this first small experiment

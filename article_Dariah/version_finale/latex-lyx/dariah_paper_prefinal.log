@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6800 64-bit)  (format=lualatex 2018.9.11)  14 SEP 2018 21:38
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6800 64-bit)  (format=lualatex 2018.9.11)  15 SEP 2018 09:28
  restricted system commands enabled.
 **dariah_paper_prefinal.tex
 (./dariah_paper_prefinal.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.473 seconds
+luaotfload | main : initialization completed in 0.459 seconds
 ("D:/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("D:/MiKTeX 2.9/tex/latex/base/size11.clo"
@@ -2106,16 +2106,16 @@ warning  (font expansion): autoexpand not supported
 <../figures/figure1.pdf, id=89, 1088.065pt x 716.6775pt>
 File: ../figures/figure1.pdf Graphic file (type pdf)
 <use ../figures/figure1.pdf>
-Package luatex.def Info: ../figures/figure1.pdf  used on input line 244.
+Package luatex.def Info: ../figures/figure1.pdf  used on input line 242.
 (luatex.def)             Requested size: 380.82846pt x 250.84088pt.
 
-Underfull \hbox (badness 1168) in paragraph at lines 263--272
+Underfull \hbox (badness 1168) in paragraph at lines 261--270
 []\TU/Calibri(1)/m/n/10.95 How-ever, these prop-er-ties are of-ten re-dun-dant,
  as each database uses their own schemas.
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 263--272
+Underfull \hbox (badness 1490) in paragraph at lines 261--270
 \TU/Calibri(1)/m/n/10.95 To en-code a per-son’s date of birth, for ex-am-ple,
  YAGO uses the prop-erty \TU/lmss/m/n/10.95 <[]http://YAGO-
  []
@@ -2124,22 +2124,22 @@ Underfull \hbox (badness 1490) in paragraph at lines 263--272
 <../figures/figure2.pdf, id=110, 1119.18124pt x 661.47125pt>
 File: ../figures/figure2.pdf Graphic file (type pdf)
 <use ../figures/figure2.pdf>
-Package luatex.def Info: ../figures/figure2.pdf  used on input line 274.
+Package luatex.def Info: ../figures/figure2.pdf  used on input line 272.
 (luatex.def)             Requested size: 391.7193pt x 231.5184pt.
  [5<../figures/figure2.pdf>]
 <../figures/figure3.png, id=126, 1238.37656pt x 654.19406pt>
 File: ../figures/figure3.png Graphic file (type png)
 <use ../figures/figure3.png>
-Package luatex.def Info: ../figures/figure3.png  used on input line 304.
+Package luatex.def Info: ../figures/figure3.png  used on input line 302.
 (luatex.def)             Requested size: 371.51584pt x 196.25972pt.
  [6<../figures/figure3.png>] [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 423.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 420.
  [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 423.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 420.
  (./dariah_paper_prefinal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 423.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 423.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 423.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 420.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 420.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 420.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -2150,12 +2150,12 @@ Here is how much of LuaTeX's memory you used:
 ribute_list, 1 write, 5 pdf_action nodes
    avail lists: 1:1,2:423,3:99,4:30,5:629,6:40,7:4386,8:57,9:176,10:17,11:268
  29071 multiletter control sequences out of 65536+200000
- 80 fonts using 38216127 bytes
+ 80 fonts using 38216287 bytes
  59i,8n,120p,1109b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
 <d:/miktex 2.9/installation/fonts/opentype/public/lm/lmsans10-regular.otf><C:/WI
 NDOWS/Fonts/calibrii.ttf><C:/WINDOWS/Fonts/calibrib.ttf><C:/WINDOWS/Fonts/calibr
 i.ttf>
-Output written on dariah_paper_prefinal.pdf (8 pages, 345426 bytes).
+Output written on dariah_paper_prefinal.pdf (8 pages, 345464 bytes).
 
 PDF statistics: 179 PDF objects out of 1000 (max. 8388607)
  45 named destinations out of 1000 (max. 131072)

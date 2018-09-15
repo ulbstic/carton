@@ -192,7 +192,6 @@ it does not understand natural language, it is able to write basic
 sentences, for example that someone was born that year, in that location,
 and practiced this or that activity.
 
-\begin{singlespace}
 As a reminder, the principles of Linked Data advocate to use URIs
 (Uniform Resource Identifiers) as names for things and to use standards
 such as RDF. For example, the sentence ``the artwork \emph{Puppy}
@@ -200,7 +199,6 @@ held by the Guggenheim Museum was made by Jeff Koons'' can be expressed
 in RDF as follows (using the N-triples notation)\footnote{Example borrowed from \textsc{S. Van Hooland, R. Verborgh},
 \emph{Linked Data for Libraries, Archives and Museums: How to clean,
 link and publish your metadata}, London, 2014.}: 
-\end{singlespace}
 \begin{singlespace}
 \begin{center}
 \textsf{<\href{http://www.guggenheim.org/new-york/collections/collection-online/artwork/48}{http://www.guggenheim.org/new-york/collections/collection-online/artwork/48}>}
@@ -257,7 +255,7 @@ than 22,000 RDF triples about Carton de Wiart. While this amount can
 seem huge, it must be noted that the clear majority of these triples
 are meaningless. RDF can be a very verbose format, requiring sometimes
 a lot of triples to express something quite basic\footnote{Especially when institutions such as the Library of Congress provide
-metadata about their triples, using RDF reification.}. Thus, once the useless triples eliminated, there are about 1,500
+metadata about their triples, using RDF reification.}. Thus, once the useless triples are eliminated, there are about 1,500
 triples left, which use some 240 distinct properties.
 
 However, these properties are often redundant, as each database uses
@@ -312,7 +310,7 @@ Biography. This confirms our first hypothesis: the overwhelming quantity
 of triples are often redundant or useless. Most of them express the
 same elements and often only offer basic information such as birth
 and death dates. We have highlighted the most problematic excerpts.
-The text in yellow points up contradictions. Firstly, it is not easy
+The text in yellow points out contradictions. Firstly, it is not easy
 to know how to write Henry. The spelling changes according to the
 language. In Wikidata, the ``given name'' property is ``Henry'',
 whereas DBpedia uses ``Henri''. Secondly, the Dutch version of DBpedia\footnote{\href{http://nl.dbpedia.org/page/Henri_Carton_de_Wiart}{http://nl.dbpedia.org/page/Henri\_Carton\_de\_Wiart}
@@ -348,8 +346,7 @@ After this first exploration with the help of Alex-the-robot, we wanted
 to take a close look at the data contained in less structured resources.
 We tried to do that by acting as if we were an archivist wishing to
 inject unstructured biographical information into the Linked Data
-cloud. In other words, what the options would be to ``manually''
-triplify extra information.
+cloud. In other words, we investigate what the options would be to ``manually'' triplify extra information.
 
 Different types of resources have been used: a biographical note from
 the \emph{Biographie nationale de Belgique}, an EAC-CPF and an EAD
@@ -371,7 +368,7 @@ a clear and representative description of Henry Carton de Wiart. We
 have identified three types of challenges, which are respectively
 related to the data, to the triple structure and to the vocabulary. 
 \begin{itemize}
-\item Albeit the completeness of the data available can constitute a limit,
+\item Although the completeness of the data available can constitute a limit,
 a more challenging point is the granularity: besides practical aspects
 and available human resources, at what level of detail should a personality
 and his life be described? For example, in an archival context, should
